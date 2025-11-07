@@ -94,15 +94,10 @@
 
 ###
 
-<h3 align="left">🔥 My Stats:</h3>
-
-###
+<h3 align="left">🔥 My Stauts :</h3>
 
 
-
-###
-
-<h3 align="center">🐍Snake</h3>
+<h3 align="center"> Git Status 🐍</h3>
 
 ###
 
