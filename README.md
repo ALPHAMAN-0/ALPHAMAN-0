@@ -5,14 +5,20 @@
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
+  <a href="https://www.linkedin.com/in/siamhossain4/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  </a>
+  <a href="https://wa.me/8801766479295" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=WhatsApp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="whatsapp logo"  />
+  </a>
+  <a href="https://x.com/SIAM_HOSSAIN47" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
+  </a>
 </div>
 
 ###
 
-<h1 align="center">Hey My Name is Siam</h1>
+<h1 align="center">Hey, My Name is Siam 👋</h1>
 
 ###
 
@@ -22,15 +28,15 @@
 
 ###
 
-<h3 align="left">👩‍💻  About Me</h3>
+<h3 align="left">👨‍💻  About Me</h3>
 
 ###
 
-<p align="left">I'm ... from ....<br><br>- 🔭 I’m working as ...<br>- 📚 I'm currently learning ...<br>- ⚡ In my free time I ...</p>
+<p align="left">I'm from Dhaka, Bangladesh 🇧🇩<br><br>- 🎓 I'm a student passionate about technology<br>- 🔭 I'm currently learning various frameworks and technologies<br>- 📚 Currently exploring: React, Django, Docker, Kubernetes & Cloud Technologies<br>- ⚡ In my free time, I love learning new things and building projects<br>- 💡 Always curious about new technologies and best practices</p>
 
 ###
 
-<h3 align="left">🛠 Language and tools</h3>
+<h3 align="left">🛠 Languages and Tools</h3>
 
 ###
 
@@ -88,7 +94,7 @@
 
 ###
 
-<h3 align="left">🔥   My Stats :</h3>
+<h3 align="left">🔥 My Stats:</h3>
 
 ###
 
@@ -100,10 +106,14 @@
 
 ###
 
+<h3 align="center">🐍 Contribution Snake</h3>
+
+###
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/github-contribution-grid-snake.svg">
 </picture>
 
 ###
