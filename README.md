@@ -110,12 +110,8 @@
 
 ###
 
-###
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake.svg" alt="Snake animation" />
 </div>
-
-###
 
 ###
