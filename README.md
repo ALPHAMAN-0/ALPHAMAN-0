@@ -17,6 +17,9 @@
   <a href="mailto:siam.cse.aiub@gmail.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=EA4335&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
   </a>
+  <a href="https://codolio.com/profile/babaYagaa" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Resume&logo=readdotcv&label=&color=8A2BE2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="resume logo"  />
+  </a>
 </div>
 
 ###
