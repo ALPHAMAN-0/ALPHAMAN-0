@@ -138,16 +138,22 @@ fun_fact: "I debug with console.log and I'm not ashamed 🤷‍♂️"
 
 ---
 
-<!-- TROPHIES -->
+<!-- METRICS & HIGHLIGHTS -->
 
-<h2 align="center">🏆 GitHub Trophies</h2>
+<h2 align="center">🏆 Highlights</h2>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ALPHAMAN-0&theme=darkhub&no-frame=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ALPHAMAN-0&repo=ALPHAMAN-0&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=f78166&text_color=c9d1d9" alt="Pinned Repo" />
 </div>
 
-<!-- If trophies don't load above, uncomment the backup below and remove the line above -->
-<!-- <img src="https://github-profile-trophy-gilt.vercel.app/?username=ALPHAMAN-0&theme=darkhub&no-frame=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies" /> -->
+<br/>
+
+<div align="center">
+
+  ![GitHub Followers](https://img.shields.io/github/followers/ALPHAMAN-0?style=for-the-badge&logo=github&logoColor=white&color=0d1117&labelColor=161b22)
+  ![GitHub Stars](https://img.shields.io/github/stars/ALPHAMAN-0?style=for-the-badge&logo=github&logoColor=white&color=0d1117&labelColor=161b22&affiliations=OWNER)
+
+</div>
 
 ---
 
