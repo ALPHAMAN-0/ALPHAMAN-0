@@ -1,17 +1,18 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=SIAM%20HOSSAIN&fontColor=e6edf3&fontSize=50&fontAlignY=35&desc=Software%20Developer%20%7C%20Cloud%20Enthusiast%20%7C%20Open%20Source%20Contributor&descSize=16&descAlignY=55&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=SIAM%20HOSSAIN&fontColor=e6edf3&fontSize=50&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20ML%20%26%20LLM%20Enthusiast%20%7C%20Network%20Engineer&descSize=16&descAlignY=55&animation=fadeIn" />
 
 <!-- TYPING SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=70&lines=%3E+Building+the+future%2C+one+commit+at+a+time;%3E+Clean+code+%7C+Cloud+native+%7C+Continuous+learning" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=650&height=70&lines=%3E+MERN+%7C+MEAN+%7C+ML+%7C+LLMs+%7C+Networking;%3E+Building+intelligent+systems%2C+one+commit+at+a+time" alt="Typing SVG" />
 </a>
 
 <!-- SOCIAL BADGES - MINIMAL STYLE -->
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siamhossain4/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://siamhossain.vercel.app/)
 [![Twitter](https://img.shields.io/badge/𝕏-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SIAM_HOSSAIN47)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:siam.cse.aiub@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801766479295)
@@ -34,18 +35,24 @@
 ```yaml
 name: Siam Hossain
 location: Dhaka, Bangladesh 🇧🇩
-role: Student & Aspiring Software Engineer
+role: Student & Aspiring Full-Stack + ML Engineer
+portfolio: https://siamhossain.vercel.app
 
 currently:
-  learning: [ React, Django, Docker, Kubernetes ]
-  exploring: [ Cloud Technologies, DevOps, System Design ]
-  building: [ Side projects & Open source contributions ]
+  learning:
+    - MERN Stack (MongoDB, Express, React, Node.js)
+    - MEAN Stack (MongoDB, Express, Angular, Node.js)
+    - Machine Learning & LLM Internals
+    - Prompt Engineering & AI Agents
+    - Computer Network Engineering
+  exploring: [ How LLMs work under the hood, RAG, Fine-tuning ]
+  building: [ Full-stack apps & AI-powered projects ]
 
 interests:
-  - Clean Architecture & Design Patterns
-  - Cloud-Native Development
-  - Containerization & Orchestration
-  - Full-Stack Web Development
+  - Full-Stack Web Development (MERN / MEAN)
+  - Machine Learning & Large Language Models
+  - AI Agents & Prompt Engineering
+  - Computer Networking & Cloud Infrastructure
 
 fun_fact: "I debug with console.log and I'm not ashamed 🤷‍♂️"
 ```
@@ -66,49 +73,72 @@ fun_fact: "I debug with console.log and I'm not ashamed 🤷‍♂️"
 
 **💻 Languages**
 
+![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 
 </td>
 <td align="center" width="25%">
 
-**🧩 Frameworks**
+**🧩 MERN / MEAN Stack**
 
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
 </td>
 <td align="center" width="25%">
 
-**☁️ DevOps & Cloud**
+**🤖 ML / AI & Cloud**
 
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 
 </td>
 <td align="center" width="25%">
 
-**🔧 Tools & DB**
+**🔧 Tools & Networking**
 
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=androidstudio&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </td>
 </tr>
 </table>
+
+</div>
+
+---
+
+<!-- CURRENTLY LEARNING ROADMAP -->
+
+<h2 align="center">🚀 Currently Diving Into</h2>
+
+<div align="center">
+
+| 🌐 Full-Stack | 🤖 AI / ML | 🔗 Networking |
+|:---:|:---:|:---:|
+| MERN Stack | Machine Learning | TCP/IP & OSI Model |
+| MEAN Stack | How LLMs Work | Network Protocols |
+| REST & GraphQL APIs | Prompt Engineering | Routing & Switching |
+| Authentication & Auth | AI Agents & RAG | Network Security |
+| State Management | Fine-tuning Models | Cloud Networking |
 
 </div>
 
