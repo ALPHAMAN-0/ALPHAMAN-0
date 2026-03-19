@@ -132,16 +132,82 @@ fun_fact: "I debug with console.log and I'm not ashamed 🤷‍♂️"
 
 <h2 align="center">🚀 Currently Diving Into</h2>
 
+<br/>
+
 <div align="center">
+<table>
+<tr>
+<td align="center" width="33%">
 
-| 🌐 Full-Stack | 🤖 AI / ML | 🔗 Networking |
-|:---:|:---:|:---:|
-| MERN Stack | Machine Learning | TCP/IP & OSI Model |
-| MEAN Stack | How LLMs Work | Network Protocols |
-| REST & GraphQL APIs | Prompt Engineering | Routing & Switching |
-| Authentication & Auth | AI Agents & RAG | Network Security |
-| State Management | Fine-tuning Models | Cloud Networking |
+<img src="https://img.shields.io/badge/⚡_FULL--STACK-161b22?style=for-the-badge" />
 
+<br/><br/>
+
+<a href="#">
+  <img src="https://img.shields.io/badge/MERN_Stack-0d1117?style=flat-square&logo=mongodb&logoColor=47A248" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/MEAN_Stack-0d1117?style=flat-square&logo=angular&logoColor=DD0031" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/REST_&_GraphQL-0d1117?style=flat-square&logo=graphql&logoColor=E10098" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Authentication-0d1117?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/State_Management-0d1117?style=flat-square&logo=redux&logoColor=764ABC" />
+</a>
+
+</td>
+<td align="center" width="33%">
+
+<img src="https://img.shields.io/badge/🧠_AI_/_ML-161b22?style=for-the-badge" />
+
+<br/><br/>
+
+<a href="#">
+  <img src="https://img.shields.io/badge/Machine_Learning-0d1117?style=flat-square&logo=tensorflow&logoColor=FF6F00" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/How_LLMs_Work-0d1117?style=flat-square&logo=openai&logoColor=412991" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Prompt_Engineering-0d1117?style=flat-square&logo=chatbot&logoColor=58a6ff" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/AI_Agents_&_RAG-0d1117?style=flat-square&logo=langchain&logoColor=1C3C3C" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Fine--tuning_Models-0d1117?style=flat-square&logo=huggingface&logoColor=FFD21E" />
+</a>
+
+</td>
+<td align="center" width="33%">
+
+<img src="https://img.shields.io/badge/🔗_NETWORKING-161b22?style=for-the-badge" />
+
+<br/><br/>
+
+<a href="#">
+  <img src="https://img.shields.io/badge/TCP/IP_&_OSI-0d1117?style=flat-square&logo=cisco&logoColor=1BA0D7" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Network_Protocols-0d1117?style=flat-square&logo=wireshark&logoColor=1679A7" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Routing_&_Switching-0d1117?style=flat-square&logo=ubiquiti&logoColor=0559C9" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Network_Security-0d1117?style=flat-square&logo=letsencrypt&logoColor=003A70" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Cloud_Networking-0d1117?style=flat-square&logo=cloudflare&logoColor=F38020" />
+</a>
+
+</td>
+</tr>
+</table>
 </div>
 
 ---
