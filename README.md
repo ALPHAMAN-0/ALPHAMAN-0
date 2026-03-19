@@ -20,7 +20,9 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=ALPHAMAN-0&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS" alt="profile views" />
+<a href="https://siamhossain.vercel.app/about.html" target="_blank">
+  <img src="https://komarev.com/ghpvc/?username=ALPHAMAN-0&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS" alt="profile views" />
+</a>
 
 </div>
 
