@@ -219,14 +219,14 @@ fun_fact: "I debug with console.log and I'm not ashamed 🤷‍♂️"
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <div align="center">
-  <img width="49%" src="https://YOUR_VERCEL_URL/api?username=ALPHAMAN-0&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ALPHAMAN-0&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ALPHAMAN-0&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=1f6feb&ring=58a6ff&fire=f78166&currStreakLabel=58a6ff" alt="GitHub Streak" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img width="42%" src="https://YOUR_VERCEL_URL/api/top-langs/?username=ALPHAMAN-0&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ALPHAMAN-0&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
 </div>
 
 <br/>
@@ -243,7 +243,7 @@ fun_fact: "I debug with console.log and I'm not ashamed 🤷‍♂️"
 <h2 align="center">🏆 Highlights</h2>
 
 <div align="center">
-  <img src="https://YOUR_VERCEL_URL/api/pin/?username=ALPHAMAN-0&repo=ALPHAMAN-0&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=f78166&text_color=c9d1d9" alt="Pinned Repo" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ALPHAMAN-0&repo=ALPHAMAN-0&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=f78166&text_color=c9d1d9" alt="Pinned Repo" />
 </div>
 
 <br/>
