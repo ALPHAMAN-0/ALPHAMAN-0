@@ -74,6 +74,7 @@ fun_fact: "I debug with console.log and I'm not ashamed 🤷‍♂️"
 <td align="center" width="25%">
 
 **💻 Languages**
+
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white)
