@@ -1,38 +1,54 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=SIAM%20HOSSAIN&fontColor=e6edf3&fontSize=50&fontAlignY=35&desc=Full-Stack%20Developer%20%E2%80%A2%20ML%20%E2%80%A2%20LLM%20Enthusiast%20%E2%80%A2%20Network%20Engineer&descSize=16&descAlignY=55&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a00,100:003b00&height=220&section=header&text=SIAM%20HOSSAIN&fontColor=00ff41&fontSize=55&fontAlignY=35&desc=%5Broot%40dhaka%5D%20Full-Stack%20%C3%97%20ML%2FAI%20%E2%80%A2%20LLM%20Internals%20%E2%80%A2%20Networking&descSize=16&descAlignY=55&animation=fadeIn" alt="header" />
 
 <!-- TYPING SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=650&height=70&lines=%3E+MERN+%7C+MEAN+%7C+ML+%7C+LLMs+%7C+Networking;%3E+Building+intelligent+systems%2C+one+commit+at+a+time" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=900&color=00FF41&background=00000000&center=true&vCenter=true&repeat=true&width=720&height=60&lines=%3E+whoami+%E2%80%94+full-stack+%2B+ML%2FAI+engineer+in+training;%3E+MERN+%7C+MEAN+%7C+LLM+internals+%7C+RAG+%7C+networking;%3E+building+intelligent+systems%2C+one+commit+at+a+time;%3E+access+granted+_" alt="Typing SVG" />
 </a>
 
-<!-- SOCIAL BADGES - MINIMAL STYLE -->
+<!-- SOCIAL BADGES -->
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siamhossain4/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://siamhossain.vercel.app/)
-[![Twitter](https://img.shields.io/badge/𝕏-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/SIAM_HOSSAIN47)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:siam.cse.aiub@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801766479295)
-[![Resume](https://img.shields.io/badge/Resume-8A2BE2?style=for-the-badge&logo=readdotcv&logoColor=white)](https://codolio.com/profile/babaYagaa)
+[![LinkedIn](https://img.shields.io/badge/-LINKEDIN-0d1117?style=for-the-badge&logo=linkedin&logoColor=00ff41)](https://www.linkedin.com/in/siamhossain4/)
+[![Portfolio](https://img.shields.io/badge/-PORTFOLIO-0d1117?style=for-the-badge&logo=google-chrome&logoColor=00ff41)](https://siamhossain.vercel.app/)
+[![X](https://img.shields.io/badge/-%F0%9D%95%8F-0d1117?style=for-the-badge&logo=x&logoColor=00ff41)](https://x.com/SIAM_HOSSAIN47)
+[![Gmail](https://img.shields.io/badge/-GMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff41)](mailto:siam.cse.aiub@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/-WHATSAPP-0d1117?style=for-the-badge&logo=whatsapp&logoColor=00ff41)](https://wa.me/8801766479295)
+[![Resume](https://img.shields.io/badge/-RESUME-0d1117?style=for-the-badge&logo=readdotcv&logoColor=00ff41)](https://codolio.com/profile/babaYagaa)
 
 <br/>
 
 <a href="https://siamhossain.vercel.app/about.html" target="_blank">
-  <img src="https://komarev.com/ghpvc/?username=ALPHAMAN-0&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=ALPHAMAN-0&style=for-the-badge&color=00ff41&label=CONNECTIONS_LOGGED" alt="profile views" />
 </a>
 
 </div>
 
 <br/>
 
-<!-- ABOUT ME SECTION -->
+<!-- BOOT SEQUENCE -->
 
-<img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+```console
+[  OK  ] Mounting /dev/brain
+[  OK  ] Loading kernel modules: mern.ko  mean.ko  transformers.ko  tcpip.ko
+[  OK  ] Starting daemon: curiosity.service
+[ FAIL ] Starting daemon: sleep.service — blocked by side_projects
+[  OK  ] Reached target: Full-Stack x AI Engineer (in training)
 
-## ⚡ About Me
+siam@dhaka:~$ _
+```
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:00ff41,100:000000&height=2" width="100%" alt="" />
+
+<!-- ABOUT ME -->
+
+## <code>$ whoami</code>
+
+<img align="right" width="340" src="assets/ascii-portrait.svg" alt="ASCII art portrait of Siam Hossain" />
+
+<samp>siam@dhaka:~$ cat ~/profile.yaml</samp>
 
 ```yaml
 name: Siam Hossain
@@ -55,17 +71,22 @@ interests:
   - Machine Learning & Large Language Models
   - AI Agents & Prompt Engineering
   - Computer Networking & Cloud Infrastructure
-
-fun_fact: "I debug with console.log and I'm not ashamed 🤷‍♂️"
 ```
+
+<details><summary><code>$ gpg --decrypt fun_fact.gpg</code></summary>
+<br/>
+
+`"I debug with console.log and I'm not ashamed."`
+
+</details>
 
 <br clear="both"/>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:00ff41,100:000000&height=2" width="100%" alt="" />
 
-<!-- TECH STACK SECTION -->
+<!-- TECH STACK -->
 
-<h2 align="center">🛠️ Tech Arsenal</h2>
+<h2 align="center"><code>$ ./skills.sh --list</code></h2>
 
 <div align="center">
 
@@ -73,53 +94,61 @@ fun_fact: "I debug with console.log and I'm not ashamed 🤷‍♂️"
 <tr>
 <td align="center" width="25%">
 
-**💻 Languages**
+<img src="https://img.shields.io/badge/LANGUAGES-00ff41?style=for-the-badge&labelColor=000000" alt="Languages" />
 
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+<br/><br/>
 
-</td>
-<td align="center" width="25%">
-
-**🧩 MERN / MEAN Stack**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-0d1117?style=flat-square&logo=gnu-bash&logoColor=00ff41)
+![JavaScript](https://img.shields.io/badge/JS-0d1117?style=flat-square&logo=javascript&logoColor=00ff41)
+![TypeScript](https://img.shields.io/badge/TS-0d1117?style=flat-square&logo=typescript&logoColor=00ff41)
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00ff41)
+![C](https://img.shields.io/badge/C-0d1117?style=flat-square&logo=c&logoColor=00ff41)
+![C++](https://img.shields.io/badge/C++-0d1117?style=flat-square&logo=cplusplus&logoColor=00ff41)
+![C#](https://img.shields.io/badge/C%23-0d1117?style=flat-square&logo=csharp&logoColor=00ff41)
+![Go](https://img.shields.io/badge/Go-0d1117?style=flat-square&logo=go&logoColor=00ff41)
 
 </td>
 <td align="center" width="25%">
 
-**🤖 ML / AI & Cloud**
+<img src="https://img.shields.io/badge/MERN_%2F_MEAN-00ff41?style=for-the-badge&labelColor=000000" alt="MERN / MEAN" />
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+<br/><br/>
+
+![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=00ff41)
+![Express](https://img.shields.io/badge/Express-0d1117?style=flat-square&logo=express&logoColor=00ff41)
+![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=00ff41)
+![Angular](https://img.shields.io/badge/Angular-0d1117?style=flat-square&logo=angular&logoColor=00ff41)
+![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=00ff41)
+![Django](https://img.shields.io/badge/Django-0d1117?style=flat-square&logo=django&logoColor=00ff41)
+![.NET](https://img.shields.io/badge/.NET-0d1117?style=flat-square&logo=dotnet&logoColor=00ff41)
 
 </td>
 <td align="center" width="25%">
 
-**🔧 Tools & Networking**
+<img src="https://img.shields.io/badge/ML_%2F_AI_%2F_CLOUD-00ff41?style=for-the-badge&labelColor=000000" alt="ML / AI / Cloud" />
 
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+<br/><br/>
+
+![PyTorch](https://img.shields.io/badge/PyTorch-0d1117?style=flat-square&logo=pytorch&logoColor=00ff41)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0d1117?style=flat-square&logo=tensorflow&logoColor=00ff41)
+![OpenAI](https://img.shields.io/badge/OpenAI-0d1117?style=flat-square&logo=openai&logoColor=00ff41)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=00ff41)
+![Kubernetes](https://img.shields.io/badge/K8s-0d1117?style=flat-square&logo=kubernetes&logoColor=00ff41)
+![AWS](https://img.shields.io/badge/AWS-0d1117?style=flat-square&logo=amazonwebservices&logoColor=00ff41)
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://img.shields.io/badge/NET_%2F_TOOLS-00ff41?style=for-the-badge&labelColor=000000" alt="Net / Tools" />
+
+<br/><br/>
+
+![Wireshark](https://img.shields.io/badge/Wireshark-0d1117?style=flat-square&logo=wireshark&logoColor=00ff41)
+![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=flat-square&logo=mysql&logoColor=00ff41)
+![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=00ff41)
+![Postman](https://img.shields.io/badge/Postman-0d1117?style=flat-square&logo=postman&logoColor=00ff41)
+![VS Code](https://img.shields.io/badge/VSCode-0d1117?style=flat-square&logo=visualstudiocode&logoColor=00ff41)
+![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=00ff41)
 
 </td>
 </tr>
@@ -127,151 +156,79 @@ fun_fact: "I debug with console.log and I'm not ashamed 🤷‍♂️"
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:00ff41,100:000000&height=2" width="100%" alt="" />
 
-<!-- CURRENTLY LEARNING ROADMAP -->
+<!-- CURRENTLY LEARNING -->
 
-<h2 align="center">🚀 Currently Diving Into</h2>
+<h2 align="center"><code>$ nmap -sV --script=curiosity siam.dev</code></h2>
 
-<br/>
+```console
+Starting Nmap 7.95 ( https://nmap.org )
 
-<div align="center">
-<table>
-<tr>
-<td align="center" width="33%">
+PORT      STATE     SERVICE          VERSION
+3000/tcp  open      mern-stack       React + Node + Express + MongoDB
+4200/tcp  open      mean-stack       Angular front, same battle-tested backend
+8080/tcp  open      llm-internals    attention, tokenizers, KV-cache, inference
+6333/tcp  open      rag-pipeline     embeddings, vector search, retrieval
+5000/tcp  open      fine-tuning      LoRA / PEFT / prompt engineering
+22/tcp    open      networking       TCP/IP, OSI, routing, wireshark captures
 
-<img src="https://img.shields.io/badge/⚡_FULL--STACK-161b22?style=for-the-badge" />
+Service detection performed. 6/6 services flagged: STATUS=LEARNING
+Nmap done: 1 host up — patching skills daily
+```
 
-<br/><br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:00ff41,100:000000&height=2" width="100%" alt="" />
 
-<a href="#">
-  <img src="https://img.shields.io/badge/MERN_Stack-0d1117?style=flat-square&logo=mongodb&logoColor=47A248" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/MEAN_Stack-0d1117?style=flat-square&logo=angular&logoColor=DD0031" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/REST_&_GraphQL-0d1117?style=flat-square&logo=graphql&logoColor=E10098" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Authentication-0d1117?style=flat-square&logo=jsonwebtokens&logoColor=white" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/State_Management-0d1117?style=flat-square&logo=redux&logoColor=764ABC" />
-</a>
+<!-- GITHUB ANALYTICS -->
 
-</td>
-<td align="center" width="33%">
-
-<img src="https://img.shields.io/badge/🧠_AI_/_ML-161b22?style=for-the-badge" />
-
-<br/><br/>
-
-<a href="#">
-  <img src="https://img.shields.io/badge/Machine_Learning-0d1117?style=flat-square&logo=tensorflow&logoColor=FF6F00" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/How_LLMs_Work-0d1117?style=flat-square&logo=openai&logoColor=412991" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Prompt_Engineering-0d1117?style=flat-square&logo=chatbot&logoColor=58a6ff" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/AI_Agents_&_RAG-0d1117?style=flat-square&logo=langchain&logoColor=1C3C3C" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Fine--tuning_Models-0d1117?style=flat-square&logo=huggingface&logoColor=FFD21E" />
-</a>
-
-</td>
-<td align="center" width="33%">
-
-<img src="https://img.shields.io/badge/🔗_NETWORKING-161b22?style=for-the-badge" />
-
-<br/><br/>
-
-<a href="#">
-  <img src="https://img.shields.io/badge/TCP/IP_&_OSI-0d1117?style=flat-square&logo=cisco&logoColor=1BA0D7" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Network_Protocols-0d1117?style=flat-square&logo=wireshark&logoColor=1679A7" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Routing_&_Switching-0d1117?style=flat-square&logo=ubiquiti&logoColor=0559C9" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Network_Security-0d1117?style=flat-square&logo=letsencrypt&logoColor=003A70" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Cloud_Networking-0d1117?style=flat-square&logo=cloudflare&logoColor=F38020" />
-</a>
-
-</td>
-</tr>
-</table>
-</div>
-
----
-
-<!-- GITHUB STATS -->
-<!-- ⚠️ IMPORTANT: Replace YOUR_VERCEL_URL below with your own deployed instance URL -->
-<!-- Example: If your Vercel URL is "github-readme-stats-alphaman0.vercel.app", replace all instances -->
-
-<h2 align="center">📊 GitHub Analytics</h2>
+<h2 align="center"><code>$ git log --author="ALPHAMAN-0" --stat</code></h2>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ALPHAMAN-0&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ALPHAMAN-0&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=1f6feb&ring=58a6ff&fire=f78166&currStreakLabel=58a6ff" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ALPHAMAN-0&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&ring_color=00ff41&rank_icon=github" alt="GitHub Stats" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=ALPHAMAN-0&hide_border=true&background=0d1117&stroke=003b00&ring=00ff41&fire=00ff41&currStreakNum=00ff41&currStreakLabel=00ff41&sideNums=00c72e&sideLabels=008f11&dates=8b949e" alt="GitHub Streak" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ALPHAMAN-0&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
-</div>
-
-<br/>
-
-<!-- ACTIVITY GRAPH -->
-<div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ALPHAMAN-0&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f78166&area=true&area_color=1f6feb" alt="Activity Graph" />
-</div>
-
----
-
-<!-- METRICS & HIGHLIGHTS -->
-
-<h2 align="center">🏆 Highlights</h2>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ALPHAMAN-0&repo=ALPHAMAN-0&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=f78166&text_color=c9d1d9" alt="Pinned Repo" />
+  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ALPHAMAN-0&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
 </div>
 
 <br/>
 
 <div align="center">
-
-  ![GitHub Followers](https://img.shields.io/github/followers/ALPHAMAN-0?style=for-the-badge&logo=github&logoColor=white&color=0d1117&labelColor=161b22)
-  ![GitHub Stars](https://img.shields.io/github/stars/ALPHAMAN-0?style=for-the-badge&logo=github&logoColor=white&color=0d1117&labelColor=161b22&affiliations=OWNER)
-
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ALPHAMAN-0&hide_border=true&bg_color=0d1117&color=00ff41&title_color=00ff41&line=00ff41&point=00c72e&area=true&area_color=003b00&custom_title=traffic%20analysis%20%2F%2F%20commit%20packets%20over%20time" alt="Activity Graph" />
 </div>
 
----
-
-<!-- SNAKE ANIMATION -->
-
-<h2 align="center">🐍 Contribution Graph</h2>
+<br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake.svg" alt="Snake animation" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ALPHAMAN-0&repo=ALPHAMAN-0&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9" alt="Pinned Repo" />
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:00ff41,100:000000&height=2" width="100%" alt="" />
+
+<!-- SNAKE -->
+
+<h2 align="center"><code>$ python3 snake.py --feed=contributions</code></h2>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake.svg" alt="Matrix snake eating contributions" />
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:00ff41,100:000000&height=2" width="100%" alt="" />
 
 <!-- FOOTER -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer" />
+![Followers](https://img.shields.io/github/followers/ALPHAMAN-0?style=for-the-badge&logo=github&logoColor=00ff41&labelColor=000000&color=0d1117&label=FOLLOWERS)
+![Stars](https://img.shields.io/github/stars/ALPHAMAN-0?style=for-the-badge&logo=github&logoColor=00ff41&labelColor=000000&color=0d1117&affiliations=OWNER&label=STARS)
+
+<br/>
+
+<samp>Connection to siam@dhaka closed. &nbsp;•&nbsp; exit code 0 &nbsp;•&nbsp; see you in the grid.</samp>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:003b00,50:001a00,100:000000&height=120&section=footer" alt="footer" />
 
 </div>
