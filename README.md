@@ -11,12 +11,7 @@
 <!-- SOCIAL BADGES -->
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/-LINKEDIN-0d1117?style=for-the-badge&logo=linkedin&logoColor=00ff41)](https://www.linkedin.com/in/siamhossain4/)
-[![Portfolio](https://img.shields.io/badge/-PORTFOLIO-0d1117?style=for-the-badge&logo=google-chrome&logoColor=00ff41)](https://siamhossain.vercel.app/)
-[![X](https://img.shields.io/badge/-%F0%9D%95%8F-0d1117?style=for-the-badge&logo=x&logoColor=00ff41)](https://x.com/SIAM_HOSSAIN47)
-[![Gmail](https://img.shields.io/badge/-GMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff41)](mailto:siam.cse.aiub@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/-WHATSAPP-0d1117?style=for-the-badge&logo=whatsapp&logoColor=00ff41)](https://wa.me/8801766479295)
-[![Resume](https://img.shields.io/badge/-RESUME-0d1117?style=for-the-badge&logo=readdotcv&logoColor=00ff41)](https://codolio.com/profile/babaYagaa)
+[![LinkedIn](https://img.shields.io/badge/-LINKEDIN-0d1117?style=for-the-badge&logo=linkedin&logoColor=00ff41)](https://www.linkedin.com/in/siamhossain4/) [![Portfolio](https://img.shields.io/badge/-PORTFOLIO-0d1117?style=for-the-badge&logo=google-chrome&logoColor=00ff41)](https://siamhossain.vercel.app/) [![X](https://img.shields.io/badge/-%F0%9D%95%8F-0d1117?style=for-the-badge&logo=x&logoColor=00ff41)](https://x.com/SIAM_HOSSAIN47) [![Gmail](https://img.shields.io/badge/-GMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff41)](mailto:siam.cse.aiub@gmail.com) [![WhatsApp](https://img.shields.io/badge/-WHATSAPP-0d1117?style=for-the-badge&logo=whatsapp&logoColor=00ff41)](https://wa.me/8801766479295) [![Resume](https://img.shields.io/badge/-RESUME-0d1117?style=for-the-badge&logo=readdotcv&logoColor=00ff41)](https://codolio.com/profile/babaYagaa)
 
 <br/>
 
@@ -222,8 +217,7 @@ Nmap done: 1 host up — patching skills daily
 
 <div align="center">
 
-![Followers](https://img.shields.io/github/followers/ALPHAMAN-0?style=for-the-badge&logo=github&logoColor=00ff41&labelColor=000000&color=0d1117&label=FOLLOWERS)
-![Stars](https://img.shields.io/github/stars/ALPHAMAN-0?style=for-the-badge&logo=github&logoColor=00ff41&labelColor=000000&color=0d1117&affiliations=OWNER&label=STARS)
+![Followers](https://img.shields.io/github/followers/ALPHAMAN-0?style=for-the-badge&logo=github&logoColor=00ff41&labelColor=000000&color=0d1117&label=FOLLOWERS) ![Stars](https://img.shields.io/github/stars/ALPHAMAN-0?style=for-the-badge&logo=github&logoColor=00ff41&labelColor=000000&color=0d1117&affiliations=OWNER&label=STARS)
 
 <br/>
 
