@@ -113,8 +113,7 @@ interests:
 <h2><code>siam@dhaka ❯ git log --stat</code></h2>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ALPHAMAN-0&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=ffffff&text_color=c9d1d9&ring_color=ffffff&rank_icon=github" alt="GitHub Stats" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=ALPHAMAN-0&hide_border=true&background=0d1117&stroke=30363d&ring=ffffff&fire=ffffff&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak" />
+  <img width="65%" src="https://streak-stats.demolab.com/?user=ALPHAMAN-0&hide_border=true&background=0d1117&stroke=30363d&ring=ffffff&fire=ffffff&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak" />
 </div>
 
 ---
