@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 148" width="420" height="148" role="img" aria-label="AIUB_NOTICE_BOARD — AI-powered Telegram bot classifying and summarising notices, serverless on Actions.">
+<style>
+text{font-family:'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace}
+.in{animation:in .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:0.18s}
+@keyframes in{from{opacity:0;transform:translateY(7px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g class="in">
+<rect x="0.5" y="0.5" width="419" height="147" rx="10" fill="#0d1117" stroke="#30363d"/>
+<line x1="0" y1="42" x2="420" y2="42" stroke="#30363d"/>
+<text x="20" y="27" font-size="13" fill="#8b949e" textLength="7.8" lengthAdjust="spacingAndGlyphs">❯</text>
+<text x="35.6" y="27" font-size="13" fill="#ffffff" textLength="132.6" lengthAdjust="spacingAndGlyphs">AIUB_NOTICE_BOARD</text>
+<text x="20" y="70" font-size="10.5" fill="#8b949e" textLength="245.7" lengthAdjust="spacingAndGlyphs">AI-powered Telegram bot classifying and</text>
+<text x="20" y="88" font-size="10.5" fill="#8b949e" textLength="270.9" lengthAdjust="spacingAndGlyphs">summarising notices, serverless on Actions.</text>
+<g><rect x="20" y="112" width="62" height="19" rx="5" fill="none" stroke="#30363d"/><text x="28" y="125" font-size="9.5" fill="#8b949e" textLength="45.6" lengthAdjust="spacingAndGlyphs">telegram</text></g><g><rect x="89" y="112" width="33" height="19" rx="5" fill="none" stroke="#30363d"/><text x="97" y="125" font-size="9.5" fill="#8b949e" textLength="17.1" lengthAdjust="spacingAndGlyphs">llm</text></g><g><rect x="129" y="112" width="56" height="19" rx="5" fill="none" stroke="#30363d"/><text x="137" y="125" font-size="9.5" fill="#8b949e" textLength="39.9" lengthAdjust="spacingAndGlyphs">actions</text></g>
+</g>
+</svg>

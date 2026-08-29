@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 30" width="86" height="30" role="img" aria-label="RESUME">
+<style>
+text{font-family:'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace}
+.in{animation:in .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:0.30s}
+@keyframes in{from{opacity:0;transform:translateY(5px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g class="in">
+<rect x="0.5" y="0.5" width="85" height="29" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+<g transform="translate(12,8)" fill="none" stroke="#1f2328" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1h5l3 3v9H3z"/><path d="M8 1v3h3M5 7.5h4M5 10h4"/></g>
+<text x="34" y="19" font-size="11" fill="#57606a" textLength="39.6" lengthAdjust="spacingAndGlyphs">RESUME</text>
+</g>
+</svg>

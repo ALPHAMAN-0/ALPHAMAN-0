@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 238" width="860" height="238" role="img" aria-label="Tech stack: languages: bash, javascript, typescript, python, c, cpp, csharp, go; mern-mean: mongodb, express, react, angular, node.js, django, dotnet; ml-ai-cloud: pytorch, tensorflow, openai, docker, kubernetes, aws; net-tools: wireshark, mysql, git, postman, vscode, linux">
+<style>text{font-family:'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace}
+.in{animation:in .52s cubic-bezier(.2,.7,.3,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}}
+.draw{stroke-dasharray:1;animation:draw 1.6s cubic-bezier(.2,.7,.3,1) both}
+@keyframes draw{from{stroke-dashoffset:1}}
+.cur{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="0.5" y="0.5" width="859" height="237" rx="10" fill="#0d1117" stroke="#30363d"/>
+<line x1="0" y1="30" x2="860" y2="30" stroke="#30363d"/>
+<circle cx="22" cy="15" r="5.5" fill="#ffffff"/><circle cx="40" cy="15" r="5.5" fill="#848d97"/><circle cx="58" cy="15" r="5.5" fill="#2f353d"/>
+<text x="430" y="19" text-anchor="middle" font-size="11" fill="#8b949e">siam@dhaka: ~/stack</text>
+<text x="28" y="60" font-size="12.5" fill="#ffffff" class="in" style="animation-delay:0.00s" textLength="90" lengthAdjust="spacingAndGlyphs">./languages/</text>
+<g class="in" style="animation-delay:0.04s">
+<text x="28" y="79" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="58.0" y="72.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="70" y="79" font-size="12.5" fill="#8b949e" textLength="30" lengthAdjust="spacingAndGlyphs">bash</text>
+</g>
+<g class="in" style="animation-delay:0.08s">
+<text x="28" y="98" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="58.0" y="91.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="70" y="98" font-size="12.5" fill="#8b949e" textLength="75" lengthAdjust="spacingAndGlyphs">javascript</text>
+</g>
+<g class="in" style="animation-delay:0.12s">
+<text x="28" y="117" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="58.0" y="110.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="70" y="117" font-size="12.5" fill="#8b949e" textLength="75" lengthAdjust="spacingAndGlyphs">typescript</text>
+</g>
+<g class="in" style="animation-delay:0.16s">
+<text x="28" y="136" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="58.0" y="129.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="70" y="136" font-size="12.5" fill="#8b949e" textLength="45" lengthAdjust="spacingAndGlyphs">python</text>
+</g>
+<g class="in" style="animation-delay:0.20s">
+<text x="28" y="155" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="58.0" y="148.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="70" y="155" font-size="12.5" fill="#8b949e" textLength="7.5" lengthAdjust="spacingAndGlyphs">c</text>
+</g>
+<g class="in" style="animation-delay:0.24s">
+<text x="28" y="174" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="58.0" y="167.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="70" y="174" font-size="12.5" fill="#8b949e" textLength="22.5" lengthAdjust="spacingAndGlyphs">cpp</text>
+</g>
+<g class="in" style="animation-delay:0.28s">
+<text x="28" y="193" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="58.0" y="186.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="70" y="193" font-size="12.5" fill="#8b949e" textLength="45" lengthAdjust="spacingAndGlyphs">csharp</text>
+</g>
+<g class="in" style="animation-delay:0.32s">
+<text x="28" y="212" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">└── </text>
+<rect x="58.0" y="205.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="70" y="212" font-size="12.5" fill="#8b949e" textLength="15" lengthAdjust="spacingAndGlyphs">go</text>
+</g>
+<text x="229" y="60" font-size="12.5" fill="#ffffff" class="in" style="animation-delay:0.00s" textLength="90" lengthAdjust="spacingAndGlyphs">./mern-mean/</text>
+<g class="in" style="animation-delay:0.04s">
+<text x="229" y="79" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="259.0" y="72.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="271" y="79" font-size="12.5" fill="#8b949e" textLength="52.5" lengthAdjust="spacingAndGlyphs">mongodb</text>
+</g>
+<g class="in" style="animation-delay:0.08s">
+<text x="229" y="98" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="259.0" y="91.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="271" y="98" font-size="12.5" fill="#8b949e" textLength="52.5" lengthAdjust="spacingAndGlyphs">express</text>
+</g>
+<g class="in" style="animation-delay:0.12s">
+<text x="229" y="117" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="259.0" y="110.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="271" y="117" font-size="12.5" fill="#8b949e" textLength="37.5" lengthAdjust="spacingAndGlyphs">react</text>
+</g>
+<g class="in" style="animation-delay:0.16s">
+<text x="229" y="136" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="259.0" y="129.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="271" y="136" font-size="12.5" fill="#8b949e" textLength="52.5" lengthAdjust="spacingAndGlyphs">angular</text>
+</g>
+<g class="in" style="animation-delay:0.20s">
+<text x="229" y="155" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="259.0" y="148.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="271" y="155" font-size="12.5" fill="#8b949e" textLength="52.5" lengthAdjust="spacingAndGlyphs">node.js</text>
+</g>
+<g class="in" style="animation-delay:0.24s">
+<text x="229" y="174" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="259.0" y="167.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="271" y="174" font-size="12.5" fill="#8b949e" textLength="45" lengthAdjust="spacingAndGlyphs">django</text>
+</g>
+<g class="in" style="animation-delay:0.28s">
+<text x="229" y="193" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">└── </text>
+<rect x="259.0" y="186.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="271" y="193" font-size="12.5" fill="#8b949e" textLength="45" lengthAdjust="spacingAndGlyphs">dotnet</text>
+</g>
+<text x="430" y="60" font-size="12.5" fill="#ffffff" class="in" style="animation-delay:0.00s" textLength="105" lengthAdjust="spacingAndGlyphs">./ml-ai-cloud/</text>
+<g class="in" style="animation-delay:0.04s">
+<text x="430" y="79" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="460.0" y="72.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="472" y="79" font-size="12.5" fill="#8b949e" textLength="52.5" lengthAdjust="spacingAndGlyphs">pytorch</text>
+</g>
+<g class="in" style="animation-delay:0.08s">
+<text x="430" y="98" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="460.0" y="91.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="472" y="98" font-size="12.5" fill="#8b949e" textLength="75" lengthAdjust="spacingAndGlyphs">tensorflow</text>
+</g>
+<g class="in" style="animation-delay:0.12s">
+<text x="430" y="117" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="460.0" y="110.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="472" y="117" font-size="12.5" fill="#8b949e" textLength="45" lengthAdjust="spacingAndGlyphs">openai</text>
+</g>
+<g class="in" style="animation-delay:0.16s">
+<text x="430" y="136" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="460.0" y="129.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="472" y="136" font-size="12.5" fill="#8b949e" textLength="45" lengthAdjust="spacingAndGlyphs">docker</text>
+</g>
+<g class="in" style="animation-delay:0.20s">
+<text x="430" y="155" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="460.0" y="148.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="472" y="155" font-size="12.5" fill="#8b949e" textLength="75" lengthAdjust="spacingAndGlyphs">kubernetes</text>
+</g>
+<g class="in" style="animation-delay:0.24s">
+<text x="430" y="174" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">└── </text>
+<rect x="460.0" y="167.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="472" y="174" font-size="12.5" fill="#8b949e" textLength="22.5" lengthAdjust="spacingAndGlyphs">aws</text>
+</g>
+<text x="631" y="60" font-size="12.5" fill="#ffffff" class="in" style="animation-delay:0.00s" textLength="90" lengthAdjust="spacingAndGlyphs">./net-tools/</text>
+<g class="in" style="animation-delay:0.04s">
+<text x="631" y="79" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="661.0" y="72.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="673" y="79" font-size="12.5" fill="#8b949e" textLength="67.5" lengthAdjust="spacingAndGlyphs">wireshark</text>
+</g>
+<g class="in" style="animation-delay:0.08s">
+<text x="631" y="98" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="661.0" y="91.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="673" y="98" font-size="12.5" fill="#8b949e" textLength="37.5" lengthAdjust="spacingAndGlyphs">mysql</text>
+</g>
+<g class="in" style="animation-delay:0.12s">
+<text x="631" y="117" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="661.0" y="110.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="673" y="117" font-size="12.5" fill="#8b949e" textLength="22.5" lengthAdjust="spacingAndGlyphs">git</text>
+</g>
+<g class="in" style="animation-delay:0.16s">
+<text x="631" y="136" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="661.0" y="129.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="673" y="136" font-size="12.5" fill="#8b949e" textLength="52.5" lengthAdjust="spacingAndGlyphs">postman</text>
+</g>
+<g class="in" style="animation-delay:0.20s">
+<text x="631" y="155" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="661.0" y="148.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="673" y="155" font-size="12.5" fill="#8b949e" textLength="45" lengthAdjust="spacingAndGlyphs">vscode</text>
+</g>
+<g class="in" style="animation-delay:0.24s">
+<text x="631" y="174" font-size="12.5" fill="#30363d" textLength="30" lengthAdjust="spacingAndGlyphs">└── </text>
+<rect x="661.0" y="167.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="673" y="174" font-size="12.5" fill="#8b949e" textLength="37.5" lengthAdjust="spacingAndGlyphs">linux</text>
+</g>
+</svg>

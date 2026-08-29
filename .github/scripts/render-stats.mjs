@@ -6,7 +6,11 @@
 // here means the image is served from GitHub's own CDN, and if this job ever
 // fails the last good card stays on the profile instead of breaking.
 //
-// Palette is the README's: #0d1117 / #30363d / #ffffff / #8b949e.
+// Chrome and palette come from lib/chrome.mjs, so this card is the same window
+// as every hand-authored asset in assets/ rather than a lookalike.
+
+import { mkdir, writeFile } from 'node:fs/promises'
+import { THEMES, HOST, esc, svg, mono, delay } from './lib/chrome.mjs'
 
 const USER = process.env.STATS_USER ?? 'ALPHAMAN-0'
 const TOKEN = process.env.GITHUB_TOKEN
@@ -28,18 +32,39 @@ async function gql(query, variables = {}) {
   return body.data
 }
 
-const profile = await gql(
-  `query ($login: String!) {
-     user(login: $login) {
-       createdAt
-       repositories(privacy: PUBLIC, ownerAffiliations: OWNER) { totalCount }
-     }
-   }`,
-  { login: USER },
-)
+// Followers and total stars are fetched here so the README's footer can drop
+// its two img.shields.io badges — they were the last third-party images on the
+// profile, and they were showing the same numbers this card already had to load.
+// Repositories are paged rather than capped at `first: 100`, so the star total
+// stays correct as the account grows past a hundred public repos.
+let publicRepos = 0
+let followers = 0
+let stars = 0
+let createdAt = null
 
-const createdAt = new Date(profile.user.createdAt)
-const publicRepos = profile.user.repositories.totalCount
+for (let cursor = null, more = true; more; ) {
+  const data = await gql(
+    `query ($login: String!, $cursor: String) {
+       user(login: $login) {
+         createdAt
+         followers { totalCount }
+         repositories(privacy: PUBLIC, ownerAffiliations: OWNER, first: 100, after: $cursor) {
+           totalCount
+           pageInfo { hasNextPage endCursor }
+           nodes { stargazerCount }
+         }
+       }
+     }`,
+    { login: USER, cursor },
+  )
+  const u = data.user
+  createdAt = new Date(u.createdAt)
+  followers = u.followers.totalCount
+  publicRepos = u.repositories.totalCount
+  stars += u.repositories.nodes.reduce((sum, r) => sum + r.stargazerCount, 0)
+  more = u.repositories.pageInfo.hasNextPage
+  cursor = u.repositories.pageInfo.endCursor
+}
 
 // contributionsCollection caps at one year per call, so walk year-long windows
 // from account creation to now and stitch the calendars together.
@@ -101,14 +126,15 @@ for (const [from, to] of windows) {
   reposCreatedLastYear = data.user.contributionsCollection.totalRepositoryContributions
 }
 
+const today = new Date().toISOString().slice(0, 10)
+
 const totalContributions = [...days.entries()]
-  .filter(([date]) => date <= new Date().toISOString().slice(0, 10))
+  .filter(([date]) => date <= today)
   .reduce((sum, [, n]) => sum + n, 0)
 
 // Streaks. Today counts as "not yet broken" while it is still in progress, so a
 // zero-contribution today does not end an otherwise live streak.
 const sorted = [...days.keys()].sort()
-const today = new Date().toISOString().slice(0, 10)
 let longest = 0
 let run = 0
 for (const date of sorted) {
@@ -125,41 +151,70 @@ for (let i = sorted.length - 1; i >= 0; i--) {
   else break
 }
 
+// Sparkline. `days` already holds every date this account has ever contributed
+// on — it was being used only for the totals and the streaks and then thrown
+// away. Bucketing its trailing 52 weeks costs no extra API calls.
+const WEEKS = 52
+const recent = sorted.filter((d) => d <= today).slice(-WEEKS * 7)
+const series = Array.from({ length: WEEKS }, (_, w) =>
+  recent.slice(w * 7, w * 7 + 7).reduce((sum, d) => sum + days.get(d), 0),
+)
+const peak = Math.max(...series, 1)
+
 const STATS = [
   [totalContributions.toLocaleString('en-US'), 'contributions'],
-  [commitsLastYear.toLocaleString('en-US'), 'commits · 12 mo'],
-  [String(reposCreatedLastYear), 'repos · 12 mo'],
+  [commitsLastYear.toLocaleString('en-US'), 'commits 12mo'],
+  [String(reposCreatedLastYear), 'repos 12mo'],
   [String(publicRepos), 'public repos'],
-  [`${current}`, 'day streak'],
-  [`${longest}`, 'longest streak'],
+  [stars.toLocaleString('en-US'), 'stars'],
+  [followers.toLocaleString('en-US'), 'followers'],
+  [String(current), 'day streak'],
+  [String(longest), 'longest'],
 ]
 
-const MONO = "'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace"
 const W = 860
-const H = 132
+const H = 226
+const PAD = 28
 
-const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-
-function render({ bg, border, fg, muted }) {
-  const colW = (W - 2 * 28) / STATS.length
+function render(t) {
+  const colW = (W - 2 * PAD) / STATS.length
   const cells = STATS.map(([value, label], i) => {
-    const cx = 28 + colW * i + colW / 2
-    return `  <text x="${cx.toFixed(1)}" y="82" text-anchor="middle" font-family="${MONO}" font-size="30" font-weight="600" fill="${fg}">${esc(value)}</text>
-  <text x="${cx.toFixed(1)}" y="104" text-anchor="middle" font-family="${MONO}" font-size="11" fill="${muted}">${esc(label)}</text>`
+    const cx = +(PAD + colW * i + colW / 2).toFixed(1)
+    return `<g class="in" style="${delay(i, 0.05)}">
+${mono(value, { x: cx, y: 100, size: 25, fill: t.fg, anchor: 'middle' })}
+${mono(label, { x: cx, y: 120, size: 9.5, fill: t.muted, anchor: 'middle' })}
+</g>`
   }).join('\n')
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="GitHub activity for ${esc(USER)}: ${STATS.map(([v, l]) => `${v} ${l}`).join(', ')}">
-  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="${bg}" stroke="${border}"/>
-  <text x="28" y="36" font-family="${MONO}" font-size="13" fill="${muted}">${esc(`${USER.toLowerCase()}@dhaka ❯ git log --shortstat --all`)}</text>
-  <line x1="28" y1="50" x2="${W - 28}" y2="50" stroke="${border}"/>
+  // pathLength="1" lets the shared `draw` keyframe animate this line without
+  // knowing its real length; see lib/chrome.mjs.
+  const top = 152
+  const band = 44
+  const step = (W - 2 * PAD) / (WEEKS - 1)
+  const pts = series
+    .map((n, i) => `${(PAD + i * step).toFixed(1)},${(top + band - (n / peak) * band).toFixed(1)}`)
+    .join(' ')
+
+  return svg({
+    w: W,
+    h: H,
+    t,
+    title: 'git-log',
+    label: `GitHub activity for ${esc(USER)}: ${STATS.map(([v, l]) => `${v} ${l}`).join(', ')}`,
+    body: `${mono(`${HOST} ❯ git log --shortstat --all`, { x: PAD, y: 54, size: 11, fill: t.muted, cls: 'in' })}
+<line x1="${PAD}" y1="68" x2="${W - PAD}" y2="68" stroke="${t.border}"/>
 ${cells}
-</svg>
-`
+<line x1="${PAD}" y1="136" x2="${W - PAD}" y2="136" stroke="${t.border}"/>
+<polyline class="draw" pathLength="1" points="${pts}" fill="none" stroke="${t.fg}" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="${PAD}" y1="${top + band}" x2="${W - PAD}" y2="${top + band}" stroke="${t.border}"/>
+${mono('contributions · last 52 weeks', { x: PAD, y: 212, size: 9.5, fill: t.muted, cls: 'in', style: delay(9, 0.05) })}
+${mono(`peak ${peak}/wk`, { x: W - PAD, y: 212, size: 9.5, fill: t.muted, anchor: 'end', cls: 'in', style: delay(9, 0.05) })}`,
+  })
 }
 
-const { mkdir, writeFile } = await import('node:fs/promises')
 await mkdir('dist', { recursive: true })
-await writeFile('dist/stats.svg', render({ bg: '#0d1117', border: '#30363d', fg: '#ffffff', muted: '#8b949e' }))
-await writeFile('dist/stats-light.svg', render({ bg: '#ffffff', border: '#d0d7de', fg: '#1f2328', muted: '#57606a' }))
+await writeFile('dist/stats.svg', render(THEMES.dark))
+await writeFile('dist/stats-light.svg', render(THEMES.light))
 
 console.log(`stats: ${STATS.map(([v, l]) => `${v} ${l}`).join(' | ')}`)
+console.log(`sparkline: ${WEEKS} weeks, peak ${peak}/wk`)

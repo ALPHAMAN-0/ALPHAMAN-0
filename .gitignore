@@ -1,0 +1,6 @@
+# Built by .github/scripts/render-stats.mjs and published to the `output`
+# branch by CI. Running the script locally to verify a change should not leave
+# CI output staged on main.
+dist/
+
+.DS_Store

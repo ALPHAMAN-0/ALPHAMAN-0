@@ -1,33 +1,40 @@
 <!-- HERO -->
 
-<table width="100%">
+<table>
 <tr>
-<td width="60%" valign="middle">
+<td width="58%" valign="middle">
 
 # Siam Hossain
 
 <samp>siam@dhaka ❯ full-stack + ML/AI engineer in training · Dhaka, Bangladesh 🇧🇩</samp>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2800&pause=1000&color=FFFFFF&background=00000000&center=false&vCenter=true&repeat=true&width=560&height=50&lines=siam%40dhaka+%E2%9D%AF+MERN+%C2%B7+MEAN+%C2%B7+LLM+internals+%C2%B7+RAG+%C2%B7+networking;siam%40dhaka+%E2%9D%AF+building+intelligent+systems%2C+one+commit+at+a+time" alt="siam@dhaka terminal typing animation" />
-</a>
-
-[LinkedIn](https://www.linkedin.com/in/siamhossain4/) · [Portfolio](https://siamhossain.vercel.app/) · [X](https://x.com/SIAM_HOSSAIN47) · [Gmail](mailto:siam.cse.aiub@gmail.com) · [WhatsApp](https://wa.me/8801766479295) · [Resume](https://codolio.com/profile/babaYagaa)
-
-<a href="https://siamhossain.vercel.app/about.html" target="_blank">
-  <img src="https://komarev.com/ghpvc/?username=ALPHAMAN-0&style=flat-square&color=0d1117&label=CONNECTIONS+LOGGED" alt="profile views" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg">
+  <img width="520" src="assets/hero-light.svg" alt="Terminal typing MERN · MEAN · LLM internals · RAG · networking, and building intelligent systems, one commit at a time" />
+</picture>
 
 </td>
-<td width="40%" align="center">
+<td width="42%" align="center">
 
-<img width="320" src="assets/ascii-portrait.svg" alt="ASCII art portrait of Siam Hossain" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-portrait.svg">
+  <img width="300" src="assets/ascii-portrait-light.svg" alt="ASCII art portrait of Siam Hossain" />
+</picture>
 
 </td>
 </tr>
 </table>
 
----
+<p>
+<a href="https://www.linkedin.com/in/siamhossain4/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-linkedin.svg"><img height="30" src="assets/chip-linkedin-light.svg" alt="LinkedIn" /></picture></a>
+<a href="https://siamhossain.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-portfolio.svg"><img height="30" src="assets/chip-portfolio-light.svg" alt="Portfolio" /></picture></a>
+<a href="https://x.com/SIAM_HOSSAIN47"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-x.svg"><img height="30" src="assets/chip-x-light.svg" alt="X" /></picture></a>
+<a href="mailto:siam.cse.aiub@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-gmail.svg"><img height="30" src="assets/chip-gmail-light.svg" alt="Gmail" /></picture></a>
+<a href="https://wa.me/8801766479295"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-whatsapp.svg"><img height="30" src="assets/chip-whatsapp-light.svg" alt="WhatsApp" /></picture></a>
+<a href="https://codolio.com/profile/babaYagaa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-resume.svg"><img height="30" src="assets/chip-resume-light.svg" alt="Resume" /></picture></a>
+</p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
 
 <!-- ABOUT -->
 
@@ -51,79 +58,63 @@ interests:
   - Computer Networking & Cloud Infrastructure
 ```
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
 
 <!-- SKILLS -->
 
 <h2><code>siam@dhaka ❯ tree ./stack</code></h2>
 
-```
-./stack
-├── languages/
-│   ├── bash
-│   ├── javascript
-│   ├── typescript
-│   ├── python
-│   ├── c
-│   ├── cpp
-│   ├── csharp
-│   └── go
-├── mern-mean/
-│   ├── mongodb
-│   ├── express
-│   ├── react
-│   ├── angular
-│   ├── node.js
-│   ├── django
-│   └── dotnet
-├── ml-ai-cloud/
-│   ├── pytorch
-│   ├── tensorflow
-│   ├── openai
-│   ├── docker
-│   ├── kubernetes
-│   └── aws
-└── net-tools/
-    ├── wireshark
-    ├── mysql
-    ├── git
-    ├── postman
-    ├── vscode
-    └── linux
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack.svg">
+  <img width="100%" src="assets/stack-light.svg" alt="Tech stack — languages: bash, javascript, typescript, python, c, cpp, csharp, go · mern-mean: mongodb, express, react, angular, node.js, django, dotnet · ml-ai-cloud: pytorch, tensorflow, openai, docker, kubernetes, aws · net-tools: wireshark, mysql, git, postman, vscode, linux" />
+</picture>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
 
 <!-- FEATURED PROJECTS -->
 
 <h2><code>siam@dhaka ❯ ls ./projects</code></h2>
 
-❯ [**Sales_Inventory_CRM**](https://github.com/ALPHAMAN-0/Sales_Inventory_CRM) — full-stack Sales, Inventory & CRM system (Laravel API + React SPA) with atomic inventory and employee KPI tracking.
+<table>
+<tr>
+<td width="50%">
+<a href="https://github.com/ALPHAMAN-0/Sales_Inventory_CRM"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-sales-inventory-crm.svg"><img width="420" src="assets/card-sales-inventory-crm-light.svg" alt="Sales_Inventory_CRM — full-stack Sales, Inventory & CRM system with atomic inventory and employee KPI tracking. Laravel, React, MySQL." /></picture></a>
+</td>
+<td width="50%">
+<a href="https://github.com/ALPHAMAN-0/Sleep_Loop"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-sleep-loop.svg"><img width="420" src="assets/card-sleep-loop-light.svg" alt="Sleep_Loop — a self-learning agent loop that repairs code overnight, gated on human approval before merge. Agents, LLM, Python." /></picture></a>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<a href="https://github.com/ALPHAMAN-0/AIUB_NOTICE_BOARD"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-aiub-notice-board.svg"><img width="420" src="assets/card-aiub-notice-board-light.svg" alt="AIUB_NOTICE_BOARD — AI-powered Telegram bot classifying and summarising university notices, serverless on GitHub Actions." /></picture></a>
+</td>
+<td width="50%">
+<a href="https://github.com/ALPHAMAN-0/CodeAlpha_RealTimeCommunicationApp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-realtime-comms.svg"><img width="420" src="assets/card-realtime-comms-light.svg" alt="RealTimeCommunicationApp — real-time video conferencing with multi-user calls, screen sharing and a shared whiteboard. WebRTC, Socket.io, Node." /></picture></a>
+</td>
+</tr>
+</table>
 
-❯ [**Sleep_Loop**](https://github.com/ALPHAMAN-0/Sleep_Loop) — a self-learning agent loop that repairs code overnight, with maker/checker agents and a human-approval gate before merge.
-
-❯ [**AIUB_NOTICE_BOARD**](https://github.com/ALPHAMAN-0/AIUB_NOTICE_BOARD) — AI-powered Telegram bot that classifies and summarizes university notices, serverless on GitHub Actions.
-
-❯ [**CodeAlpha_RealTimeCommunicationApp**](https://github.com/ALPHAMAN-0/CodeAlpha_RealTimeCommunicationApp) — real-time video conferencing app with multi-user calls, screen sharing & whiteboard (WebRTC, Socket.io, React, Node).
-
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
 
 <!-- GITHUB STATS -->
+<!-- Both images below are built every 12h by .github/workflows/profile-assets.yml
+     and published to the `output` branch, so they are served from GitHub's own
+     CDN rather than a third-party card service. -->
 
 <h2><code>siam@dhaka ❯ git log --stat</code></h2>
 
-<div align="center">
-  <img width="65%" src="https://streak-stats.demolab.com/?user=ALPHAMAN-0&hide_border=true&background=0d1117&stroke=30363d&ring=ffffff&fire=ffffff&currStreakNum=ffffff&currStreakLabel=ffffff&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/stats.svg">
+  <img width="100%" src="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/stats-light.svg" alt="GitHub activity: total contributions, commits and repos over 12 months, public repos, stars, followers, current and longest streak, with a 52-week contribution sparkline" />
+</picture>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake.svg">
+  <img width="100%" src="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake-light.svg" alt="A snake eating the contribution graph" />
+</picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
 
 <!-- FOOTER -->
 
-<div align="center">
-
-![Followers](https://img.shields.io/github/followers/ALPHAMAN-0?style=flat-square&logo=github&logoColor=ffffff&labelColor=000000&color=0d1117&label=FOLLOWERS) ![Stars](https://img.shields.io/github/stars/ALPHAMAN-0?style=flat-square&logo=github&logoColor=ffffff&labelColor=000000&color=0d1117&affiliations=OWNER&label=STARS)
-
 <samp>siam@dhaka ❯ exit — session logged, see you in the grid.</samp>
-
-</div>

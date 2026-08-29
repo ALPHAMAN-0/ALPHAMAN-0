@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 148" width="420" height="148" role="img" aria-label="RealTimeCommunicationApp — Real-time video conferencing with multi-user calls, screen sharing and a shared whiteboard.">
+<style>
+text{font-family:'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace}
+.in{animation:in .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:0.27s}
+@keyframes in{from{opacity:0;transform:translateY(7px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g class="in">
+<rect x="0.5" y="0.5" width="419" height="147" rx="10" fill="#0d1117" stroke="#30363d"/>
+<line x1="0" y1="42" x2="420" y2="42" stroke="#30363d"/>
+<text x="20" y="27" font-size="13" fill="#8b949e" textLength="7.8" lengthAdjust="spacingAndGlyphs">❯</text>
+<text x="35.6" y="27" font-size="13" fill="#ffffff" textLength="187.2" lengthAdjust="spacingAndGlyphs">RealTimeCommunicationApp</text>
+<text x="20" y="70" font-size="10.5" fill="#8b949e" textLength="277.2" lengthAdjust="spacingAndGlyphs">Real-time video conferencing with multi-user</text>
+<text x="20" y="88" font-size="10.5" fill="#8b949e" textLength="289.8" lengthAdjust="spacingAndGlyphs">calls, screen sharing and a shared whiteboard.</text>
+<g><rect x="20" y="112" width="50" height="19" rx="5" fill="none" stroke="#30363d"/><text x="28" y="125" font-size="9.5" fill="#8b949e" textLength="34.2" lengthAdjust="spacingAndGlyphs">webrtc</text></g><g><rect x="77" y="112" width="67" height="19" rx="5" fill="none" stroke="#30363d"/><text x="85" y="125" font-size="9.5" fill="#8b949e" textLength="51.3" lengthAdjust="spacingAndGlyphs">socket.io</text></g><g><rect x="151" y="112" width="39" height="19" rx="5" fill="none" stroke="#30363d"/><text x="159" y="125" font-size="9.5" fill="#8b949e" textLength="22.8" lengthAdjust="spacingAndGlyphs">node</text></g>
+</g>
+</svg>

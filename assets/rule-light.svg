@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 13" width="860" height="13" role="img" aria-label="">
+<style>
+.draw{stroke-dasharray:1;animation:draw 1.4s cubic-bezier(.2,.7,.3,1) both}
+@keyframes draw{from{stroke-dashoffset:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<line class="draw" pathLength="1" x1="0" y1="6.5" x2="860" y2="6.5" stroke="#d0d7de"/>
+<line class="draw" pathLength="1" x1="0" y1="6.5" x2="96" y2="6.5" stroke="#424a53" style="animation-duration:.7s"/>
+</svg>

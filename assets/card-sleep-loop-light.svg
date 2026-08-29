@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 148" width="420" height="148" role="img" aria-label="Sleep_Loop — A self-learning agent loop that repairs code overnight, gated on human approval before merge.">
+<style>
+text{font-family:'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace}
+.in{animation:in .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:0.09s}
+@keyframes in{from{opacity:0;transform:translateY(7px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g class="in">
+<rect x="0.5" y="0.5" width="419" height="147" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="0" y1="42" x2="420" y2="42" stroke="#d0d7de"/>
+<text x="20" y="27" font-size="13" fill="#57606a" textLength="7.8" lengthAdjust="spacingAndGlyphs">❯</text>
+<text x="35.6" y="27" font-size="13" fill="#1f2328" textLength="78" lengthAdjust="spacingAndGlyphs">Sleep_Loop</text>
+<text x="20" y="70" font-size="10.5" fill="#57606a" textLength="277.2" lengthAdjust="spacingAndGlyphs">A self-learning agent loop that repairs code</text>
+<text x="20" y="88" font-size="10.5" fill="#57606a" textLength="302.4" lengthAdjust="spacingAndGlyphs">overnight, gated on human approval before merge.</text>
+<g><rect x="20" y="112" width="50" height="19" rx="5" fill="none" stroke="#d0d7de"/><text x="28" y="125" font-size="9.5" fill="#57606a" textLength="34.2" lengthAdjust="spacingAndGlyphs">agents</text></g><g><rect x="77" y="112" width="33" height="19" rx="5" fill="none" stroke="#d0d7de"/><text x="85" y="125" font-size="9.5" fill="#57606a" textLength="17.1" lengthAdjust="spacingAndGlyphs">llm</text></g><g><rect x="117" y="112" width="50" height="19" rx="5" fill="none" stroke="#d0d7de"/><text x="125" y="125" font-size="9.5" fill="#57606a" textLength="34.2" lengthAdjust="spacingAndGlyphs">python</text></g>
+</g>
+</svg>
