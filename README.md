@@ -96,6 +96,17 @@ interests:
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
 
+<!-- NOW -->
+
+<h2><code>siam@dhaka ❯ ./now --status</code></h2>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/now.svg">
+  <img width="100%" src="assets/now-light.svg" alt="Now: shipping — Sleep_Loop (self-repair agent), LinkedIn AI Power (Telegram bot), Personal blog (bilingual Astro); learning — LLM internals (RAG, fine-tuning), Prompt & agent design, Networks & cloud infrastructure; open to — Full-stack / AI internships 2026, AI agents & RAG collabs, Recruiter chats — DM me" />
+</picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
+
 <!-- GITHUB STATS -->
 <!-- Both images below are built every 12h by .github/workflows/profile-assets.yml
      and published to the `output` branch, so they are served from GitHub's own

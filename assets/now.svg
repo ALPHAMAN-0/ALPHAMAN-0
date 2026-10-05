@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 170" width="860" height="170" role="img" aria-label="Now: shipping — Sleep_Loop — self-repair agent; LinkedIn AI Power — Telegram bot; Personal blog — bilingual Astro; learning — LLM internals — RAG, fine-tuning; Prompt &amp; agent design; Networks &amp; cloud infrastructure; open to — Full-stack / AI internships 2026; AI agents &amp; RAG collabs; Recruiter chats — DM me">
+<style>text{font-family:'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace}
+.in{animation:in .52s cubic-bezier(.2,.7,.3,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}}
+.draw{stroke-dasharray:1;animation:draw 1.6s cubic-bezier(.2,.7,.3,1) both}
+@keyframes draw{from{stroke-dashoffset:1}}
+.cur{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="0.5" y="0.5" width="859" height="169" rx="10" fill="#0d1117" stroke="#30363d"/>
+<line x1="0" y1="30" x2="860" y2="30" stroke="#30363d"/>
+<circle cx="22" cy="15" r="5.5" fill="#ffffff"/><circle cx="40" cy="15" r="5.5" fill="#848d97"/><circle cx="58" cy="15" r="5.5" fill="#2f353d"/>
+<text x="430" y="19" text-anchor="middle" font-size="11" fill="#8b949e">siam@dhaka: ~/now</text>
+<line x1="284.0" y1="50" x2="284.0" y2="156" stroke="#30363d"/>
+<line x1="552.0" y1="50" x2="552.0" y2="156" stroke="#30363d"/>
+<text x="28" y="64" font-size="11" fill="#ffffff" class="in" style="animation-delay:0.00s" textLength="72.6" lengthAdjust="spacingAndGlyphs">./shipping/</text>
+<g class="in" style="animation-delay:0.04s">
+<text x="28" y="92" font-size="11" fill="#30363d" textLength="26.4" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="54.4" y="85.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="75.5" y="92" font-size="11" fill="#8b949e" textLength="198" lengthAdjust="spacingAndGlyphs">Sleep_Loop — self-repair agent</text>
+</g>
+<g class="in" style="animation-delay:0.08s">
+<text x="28" y="110" font-size="11" fill="#30363d" textLength="26.4" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="54.4" y="103.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="75.5" y="110" font-size="11" fill="#8b949e" textLength="211.2" lengthAdjust="spacingAndGlyphs">LinkedIn AI Power — Telegram bot</text>
+</g>
+<g class="in" style="animation-delay:0.12s">
+<text x="28" y="128" font-size="11" fill="#30363d" textLength="26.4" lengthAdjust="spacingAndGlyphs">└── </text>
+<rect x="54.4" y="121.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="75.5" y="128" font-size="11" fill="#8b949e" textLength="204.6" lengthAdjust="spacingAndGlyphs">Personal blog — bilingual Astro</text>
+</g>
+<text x="296" y="64" font-size="11" fill="#ffffff" class="in" style="animation-delay:0.00s" textLength="72.6" lengthAdjust="spacingAndGlyphs">./learning/</text>
+<g class="in" style="animation-delay:0.04s">
+<text x="296" y="92" font-size="11" fill="#30363d" textLength="26.4" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="322.4" y="85.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="343.5" y="92" font-size="11" fill="#8b949e" textLength="211.2" lengthAdjust="spacingAndGlyphs">LLM internals — RAG, fine-tuning</text>
+</g>
+<g class="in" style="animation-delay:0.08s">
+<text x="296" y="110" font-size="11" fill="#30363d" textLength="26.4" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="322.4" y="103.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="343.5" y="110" font-size="11" fill="#8b949e" textLength="138.6" lengthAdjust="spacingAndGlyphs">Prompt &amp; agent design</text>
+</g>
+<g class="in" style="animation-delay:0.12s">
+<text x="296" y="128" font-size="11" fill="#30363d" textLength="26.4" lengthAdjust="spacingAndGlyphs">└── </text>
+<rect x="322.4" y="121.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="343.5" y="128" font-size="11" fill="#8b949e" textLength="204.6" lengthAdjust="spacingAndGlyphs">Networks &amp; cloud infrastructure</text>
+</g>
+<text x="564" y="64" font-size="11" fill="#ffffff" class="in" style="animation-delay:0.00s" textLength="66" lengthAdjust="spacingAndGlyphs">./open_to/</text>
+<g class="in" style="animation-delay:0.04s">
+<text x="564" y="92" font-size="11" fill="#30363d" textLength="26.4" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="590.4" y="85.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="611.5" y="92" font-size="11" fill="#8b949e" textLength="211.2" lengthAdjust="spacingAndGlyphs">Full-stack / AI internships 2026</text>
+</g>
+<g class="in" style="animation-delay:0.08s">
+<text x="564" y="110" font-size="11" fill="#30363d" textLength="26.4" lengthAdjust="spacingAndGlyphs">├── </text>
+<rect x="590.4" y="103.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="611.5" y="110" font-size="11" fill="#8b949e" textLength="151.8" lengthAdjust="spacingAndGlyphs">AI agents &amp; RAG collabs</text>
+</g>
+<g class="in" style="animation-delay:0.12s">
+<text x="564" y="128" font-size="11" fill="#30363d" textLength="26.4" lengthAdjust="spacingAndGlyphs">└── </text>
+<rect x="590.4" y="121.0" width="6" height="6" fill="#c9d1d9"/>
+<text x="611.5" y="128" font-size="11" fill="#8b949e" textLength="151.8" lengthAdjust="spacingAndGlyphs">Recruiter chats — DM me</text>
+</g>
+</svg>
