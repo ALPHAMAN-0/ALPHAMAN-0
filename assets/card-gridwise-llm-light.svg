@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 148" width="420" height="148" role="img" aria-label="Gridwise_LLM_Energy_Optimizer — An LLM reads operator notes into guardrailed directives; an LP solves the cheapest 24h plan.">
+<style>
+text{font-family:'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace}
+.in{animation:in .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:0.00s}
+@keyframes in{from{opacity:0;transform:translateY(7px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g class="in">
+<rect x="0.5" y="0.5" width="419" height="147" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="0" y1="42" x2="420" y2="42" stroke="#d0d7de"/>
+<text x="20" y="27" font-size="13" fill="#57606a" textLength="7.8" lengthAdjust="spacingAndGlyphs">❯</text>
+<text x="35.6" y="27" font-size="13" fill="#1f2328" textLength="226.2" lengthAdjust="spacingAndGlyphs">Gridwise_LLM_Energy_Optimizer</text>
+<text x="20" y="70" font-size="10.5" fill="#57606a" textLength="277.2" lengthAdjust="spacingAndGlyphs">An LLM reads operator notes into guardrailed</text>
+<text x="20" y="88" font-size="10.5" fill="#57606a" textLength="296.1" lengthAdjust="spacingAndGlyphs">directives; an LP solves the cheapest 24h plan.</text>
+<g><rect x="20" y="112" width="33" height="19" rx="5" fill="none" stroke="#d0d7de"/><text x="28" y="125" font-size="9.5" fill="#57606a" textLength="17.1" lengthAdjust="spacingAndGlyphs">llm</text></g><g><rect x="60" y="112" width="56" height="19" rx="5" fill="none" stroke="#d0d7de"/><text x="68" y="125" font-size="9.5" fill="#57606a" textLength="39.9" lengthAdjust="spacingAndGlyphs">fastapi</text></g><g><rect x="123" y="112" width="84" height="19" rx="5" fill="none" stroke="#d0d7de"/><text x="131" y="125" font-size="9.5" fill="#57606a" textLength="68.4" lengthAdjust="spacingAndGlyphs">optimization</text></g>
+</g>
+</svg>

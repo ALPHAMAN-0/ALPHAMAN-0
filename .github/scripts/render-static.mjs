@@ -255,6 +255,13 @@ ${mono(label, { x: padX + 14 + gap, y: h / 2 + 4, size: fs, fill: t.muted })}
 
 const PROJECTS = [
   {
+    slug: 'gridwise-llm',
+    name: 'Gridwise_LLM_Energy_Optimizer',
+    url: 'https://github.com/ALPHAMAN-0/Gridwise_LLM_Energy_Optimizer',
+    desc: ['An LLM reads operator notes into guardrailed', 'directives; an LP solves the cheapest 24h plan.'],
+    tags: ['llm', 'fastapi', 'optimization'],
+  },
+  {
     slug: 'sales-inventory-crm',
     name: 'Sales_Inventory_CRM',
     url: 'https://github.com/ALPHAMAN-0/Sales_Inventory_CRM',

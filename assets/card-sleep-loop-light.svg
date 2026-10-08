@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 148" width="420" height="148" role="img" aria-label="Sleep_Loop — A self-learning agent loop that repairs code overnight, gated on human approval before merge.">
 <style>
 text{font-family:'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace}
-.in{animation:in .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:0.09s}
+.in{animation:in .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:0.18s}
 @keyframes in{from{opacity:0;transform:translateY(7px)}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>

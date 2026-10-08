@@ -77,6 +77,11 @@ interests:
 
 <table>
 <tr>
+<td colspan="2" align="center">
+<a href="https://github.com/ALPHAMAN-0/Gridwise_LLM_Energy_Optimizer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-gridwise-llm.svg"><img width="420" src="assets/card-gridwise-llm-light.svg" alt="Gridwise_LLM_Energy_Optimizer — an LLM reads operator notes into guardrailed directives, then a linear program solves the cheapest 24-hour campus grid plan. LLM, FastAPI, optimization." /></picture></a>
+</td>
+</tr>
+<tr>
 <td width="50%">
 <a href="https://github.com/ALPHAMAN-0/Sales_Inventory_CRM"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-sales-inventory-crm.svg"><img width="420" src="assets/card-sales-inventory-crm-light.svg" alt="Sales_Inventory_CRM — full-stack Sales, Inventory & CRM system with atomic inventory and employee KPI tracking. Laravel, React, MySQL." /></picture></a>
 </td>
