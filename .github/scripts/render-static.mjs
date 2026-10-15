@@ -289,6 +289,13 @@ const PROJECTS = [
     desc: ['Real-time video conferencing with multi-user', 'calls, screen sharing and a shared whiteboard.'],
     tags: ['webrtc', 'socket.io', 'node'],
   },
+  {
+    slug: 'sir-ar-last-date',
+    name: 'Sir_ar_last_date',
+    url: 'https://github.com/ALPHAMAN-0/Sir_ar_last_date',
+    desc: ['Class-deadline checker: upload a roster,', 'set a deadline, see who pushed on time.'],
+    tags: ['cloudflare', 'edge', 'typescript'],
+  },
 ]
 
 function card(t, p, i) {

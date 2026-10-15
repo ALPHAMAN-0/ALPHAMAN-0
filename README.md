@@ -97,6 +97,11 @@ interests:
 <a href="https://github.com/ALPHAMAN-0/CodeAlpha_RealTimeCommunicationApp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-realtime-comms.svg"><img width="420" src="assets/card-realtime-comms-light.svg" alt="RealTimeCommunicationApp — real-time video conferencing with multi-user calls, screen sharing and a shared whiteboard. WebRTC, Socket.io, Node." /></picture></a>
 </td>
 </tr>
+<tr>
+<td colspan="2" align="center">
+<a href="https://github.com/ALPHAMAN-0/Sir_ar_last_date"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-sir-ar-last-date.svg"><img width="420" src="assets/card-sir-ar-last-date-light.svg" alt="Sir_ar_last_date — class-deadline checker: upload a roster, set a deadline, see which students pushed to GitHub on time. Runs on the Cloudflare edge, never exposes the token." /></picture></a>
+</td>
+</tr>
 </table>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
