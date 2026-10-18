@@ -8,17 +8,6 @@
 
 <samp>siam@dhaka ❯ full-stack + ML/AI engineer in training · Dhaka, Bangladesh 🇧🇩</samp>
 
-## Architecture / How it Works
-
-```mermaid
-flowchart LR
-    A[User] --> B[ALPHAMAN 0]
-    B --> C{Logic}
-    C --> D[(Data)]
-    C --> E[Output]
-    D --> C
-```
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg">
