@@ -8,6 +8,18 @@
 
 <samp>siam@dhaka ❯ full-stack + ML/AI engineer in training · Dhaka, Bangladesh 🇧🇩</samp>
 
+## Architecture / How it Works
+
+```mermaid
+flowchart LR
+    A[User] --> B[ALPHAMAN 0]
+    B --> C{Logic}
+    C --> D[(Data)]
+    C --> E[Output]
+    D --> C
+```
+
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg">
   <img width="520" src="assets/hero-light.svg" alt="Terminal typing MERN · MEAN · LLM internals · RAG · networking, and building intelligent systems, one commit at a time" />
