@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 226" width="860" height="226" role="img" aria-label="GitHub activity for ALPHAMAN-0: 1,969 contributions, 997 commits 12mo, 58 repos 12mo, 97 public repos, 13 stars, 9 followers, 0 day streak, 18 longest">
+<style>text{font-family:'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace}
+.in{animation:in .52s cubic-bezier(.2,.7,.3,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}}
+.draw{stroke-dasharray:1;animation:draw 1.6s cubic-bezier(.2,.7,.3,1) both}
+@keyframes draw{from{stroke-dashoffset:1}}
+.cur{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="0.5" y="0.5" width="859" height="225" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<line x1="0" y1="30" x2="860" y2="30" stroke="#d0d7de"/>
+<circle cx="22" cy="15" r="5.5" fill="#1f2328"/><circle cx="40" cy="15" r="5.5" fill="#6e7781"/><circle cx="58" cy="15" r="5.5" fill="#d0d7de"/>
+<text x="430" y="19" text-anchor="middle" font-size="11" fill="#57606a">siam@dhaka: ~/git-log</text>
+<text x="28" y="54" font-size="11" fill="#57606a" class="in" textLength="250.8" lengthAdjust="spacingAndGlyphs">siam@dhaka ❯ git log --shortstat --all</text>
+<line x1="28" y1="68" x2="832" y2="68" stroke="#d0d7de"/>
+<g class="in" style="animation-delay:0.00s">
+<text x="78.3" y="100" font-size="25" fill="#1f2328" text-anchor="middle" textLength="75" lengthAdjust="spacingAndGlyphs">1,969</text>
+<text x="78.3" y="120" font-size="9.5" fill="#57606a" text-anchor="middle" textLength="74.1" lengthAdjust="spacingAndGlyphs">contributions</text>
+</g>
+<g class="in" style="animation-delay:0.05s">
+<text x="178.8" y="100" font-size="25" fill="#1f2328" text-anchor="middle" textLength="45" lengthAdjust="spacingAndGlyphs">997</text>
+<text x="178.8" y="120" font-size="9.5" fill="#57606a" text-anchor="middle" textLength="68.4" lengthAdjust="spacingAndGlyphs">commits 12mo</text>
+</g>
+<g class="in" style="animation-delay:0.10s">
+<text x="279.3" y="100" font-size="25" fill="#1f2328" text-anchor="middle" textLength="30" lengthAdjust="spacingAndGlyphs">58</text>
+<text x="279.3" y="120" font-size="9.5" fill="#57606a" text-anchor="middle" textLength="57" lengthAdjust="spacingAndGlyphs">repos 12mo</text>
+</g>
+<g class="in" style="animation-delay:0.15s">
+<text x="379.8" y="100" font-size="25" fill="#1f2328" text-anchor="middle" textLength="30" lengthAdjust="spacingAndGlyphs">97</text>
+<text x="379.8" y="120" font-size="9.5" fill="#57606a" text-anchor="middle" textLength="68.4" lengthAdjust="spacingAndGlyphs">public repos</text>
+</g>
+<g class="in" style="animation-delay:0.20s">
+<text x="480.3" y="100" font-size="25" fill="#1f2328" text-anchor="middle" textLength="30" lengthAdjust="spacingAndGlyphs">13</text>
+<text x="480.3" y="120" font-size="9.5" fill="#57606a" text-anchor="middle" textLength="28.5" lengthAdjust="spacingAndGlyphs">stars</text>
+</g>
+<g class="in" style="animation-delay:0.25s">
+<text x="580.8" y="100" font-size="25" fill="#1f2328" text-anchor="middle" textLength="15" lengthAdjust="spacingAndGlyphs">9</text>
+<text x="580.8" y="120" font-size="9.5" fill="#57606a" text-anchor="middle" textLength="51.3" lengthAdjust="spacingAndGlyphs">followers</text>
+</g>
+<g class="in" style="animation-delay:0.30s">
+<text x="681.3" y="100" font-size="25" fill="#1f2328" text-anchor="middle" textLength="15" lengthAdjust="spacingAndGlyphs">0</text>
+<text x="681.3" y="120" font-size="9.5" fill="#57606a" text-anchor="middle" textLength="57" lengthAdjust="spacingAndGlyphs">day streak</text>
+</g>
+<g class="in" style="animation-delay:0.35s">
+<text x="781.8" y="100" font-size="25" fill="#1f2328" text-anchor="middle" textLength="30" lengthAdjust="spacingAndGlyphs">18</text>
+<text x="781.8" y="120" font-size="9.5" fill="#57606a" text-anchor="middle" textLength="39.9" lengthAdjust="spacingAndGlyphs">longest</text>
+</g>
+<line x1="28" y1="136" x2="832" y2="136" stroke="#d0d7de"/>
+<polyline class="draw" pathLength="1" points="28.0,194.2 43.8,189.8 59.5,194.2 75.3,196.0 91.1,195.7 106.8,193.1 122.6,195.7 138.4,195.0 154.1,194.2 169.9,195.5 185.6,193.4 201.4,194.7 217.2,191.3 232.9,193.4 248.7,194.4 264.5,193.7 280.2,194.2 296.0,195.5 311.8,195.2 327.5,194.2 343.3,191.1 359.1,180.9 374.8,192.6 390.6,193.4 406.4,189.2 422.1,190.5 437.9,192.1 453.6,189.0 469.4,192.4 485.2,185.6 500.9,181.7 516.7,186.4 532.5,192.6 548.2,186.4 564.0,194.2 579.8,191.1 595.5,181.7 611.3,182.5 627.1,192.9 642.8,184.8 658.6,190.5 674.4,188.4 690.1,185.6 705.9,173.9 721.6,188.4 737.4,152.0 753.2,153.6 768.9,177.0 784.7,179.6 800.5,155.4 816.2,169.4 832.0,156.2" fill="none" stroke="#1f2328" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="28" y1="196" x2="832" y2="196" stroke="#d0d7de"/>
+<text x="28" y="212" font-size="9.5" fill="#57606a" class="in" style="animation-delay:0.45s" textLength="165.3" lengthAdjust="spacingAndGlyphs">contributions · last 52 weeks</text>
+<text x="832" y="212" font-size="9.5" fill="#57606a" text-anchor="end" class="in" style="animation-delay:0.45s" textLength="62.7" lengthAdjust="spacingAndGlyphs">peak 169/wk</text>
+</svg>
