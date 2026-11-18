@@ -1,17 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 148" width="420" height="148" role="img" aria-label="Sleep_Loop — A self-learning agent loop that repairs code overnight, gated on human approval before merge.">
-<style>
-text{font-family:'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace}
-.in{animation:in .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:0.18s}
-@keyframes in{from{opacity:0;transform:translateY(7px)}}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 304" width="430" height="304" role="img" aria-label="Sleep Loop: A Python repair loop of about 200 lines: a scripted maker proposes fixes, a checker runs ast, lint and pytest, and failures become rules. How it works: a maker proposes a fix, a pytest checker gates it, a failure is written to RULES.md and goes back to the maker, a pass waits for a human to merge.">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+.fade{animation:fade .8s ease both}
+@keyframes fade{from{opacity:0}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
-</style>
-<g class="in">
-<rect x="0.5" y="0.5" width="419" height="147" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-<line x1="0" y1="42" x2="420" y2="42" stroke="#d0d7de"/>
-<text x="20" y="27" font-size="13" fill="#57606a" textLength="7.8" lengthAdjust="spacingAndGlyphs">❯</text>
-<text x="35.6" y="27" font-size="13" fill="#1f2328" textLength="78" lengthAdjust="spacingAndGlyphs">Sleep_Loop</text>
-<text x="20" y="70" font-size="10.5" fill="#57606a" textLength="277.2" lengthAdjust="spacingAndGlyphs">A self-learning agent loop that repairs code</text>
-<text x="20" y="88" font-size="10.5" fill="#57606a" textLength="302.4" lengthAdjust="spacingAndGlyphs">overnight, gated on human approval before merge.</text>
-<g><rect x="20" y="112" width="50" height="19" rx="5" fill="none" stroke="#d0d7de"/><text x="28" y="125" font-size="9.5" fill="#57606a" textLength="34.2" lengthAdjust="spacingAndGlyphs">agents</text></g><g><rect x="77" y="112" width="33" height="19" rx="5" fill="none" stroke="#d0d7de"/><text x="85" y="125" font-size="9.5" fill="#57606a" textLength="17.1" lengthAdjust="spacingAndGlyphs">llm</text></g><g><rect x="117" y="112" width="50" height="19" rx="5" fill="none" stroke="#d0d7de"/><text x="125" y="125" font-size="9.5" fill="#57606a" textLength="34.2" lengthAdjust="spacingAndGlyphs">python</text></g>
+@keyframes d1p0h{0%,17.593%{stroke-dashoffset:10;opacity:0}17.603%{opacity:1}21.759%{stroke-dashoffset:-130;opacity:1}21.769%,100%{stroke-dashoffset:-130;opacity:0}}
+@keyframes d1p0t{0%,17.593%{stroke-dashoffset:30;opacity:0}17.603%{opacity:.35}21.759%{stroke-dashoffset:-110;opacity:.35}21.769%,100%{stroke-dashoffset:-110;opacity:0}}
+.d1p0h{animation:d1p0h 21.6s linear 2}.d1p0t{animation:d1p0t 21.6s linear 2}
+@keyframes d1p1h{0%,19.907%{stroke-dashoffset:10;opacity:0}19.917%{opacity:1}24.074%{stroke-dashoffset:-130;opacity:1}24.084%,100%{stroke-dashoffset:-130;opacity:0}}
+@keyframes d1p1t{0%,19.907%{stroke-dashoffset:30;opacity:0}19.917%{opacity:.35}24.074%{stroke-dashoffset:-110;opacity:.35}24.084%,100%{stroke-dashoffset:-110;opacity:0}}
+.d1p1h{animation:d1p1h 21.6s linear 2}.d1p1t{animation:d1p1t 21.6s linear 2}
+@keyframes d1p2h{0%,21.991%{stroke-dashoffset:10;opacity:0}22.001%{opacity:1}26.157%{stroke-dashoffset:-130;opacity:1}26.167%,100%{stroke-dashoffset:-130;opacity:0}}
+@keyframes d1p2t{0%,21.991%{stroke-dashoffset:30;opacity:0}22.001%{opacity:.35}26.157%{stroke-dashoffset:-110;opacity:.35}26.167%,100%{stroke-dashoffset:-110;opacity:0}}
+.d1p2h{animation:d1p2h 21.6s linear 2}.d1p2t{animation:d1p2t 21.6s linear 2}
+@keyframes d1p3h{0%,23.843%{stroke-dashoffset:10;opacity:0}23.853%{opacity:1}28.009%{stroke-dashoffset:-130;opacity:1}28.019%,100%{stroke-dashoffset:-130;opacity:0}}
+@keyframes d1p3t{0%,23.843%{stroke-dashoffset:30;opacity:0}23.853%{opacity:.35}28.009%{stroke-dashoffset:-110;opacity:.35}28.019%,100%{stroke-dashoffset:-110;opacity:0}}
+.d1p3h{animation:d1p3h 21.6s linear 2}.d1p3t{animation:d1p3t 21.6s linear 2}
+@keyframes d1p4h{0%,26.157%{stroke-dashoffset:10;opacity:0}26.167%{opacity:1}30.324%{stroke-dashoffset:-130;opacity:1}30.334%,100%{stroke-dashoffset:-130;opacity:0}}
+@keyframes d1p4t{0%,26.157%{stroke-dashoffset:30;opacity:0}26.167%{opacity:.35}30.324%{stroke-dashoffset:-110;opacity:.35}30.334%,100%{stroke-dashoffset:-110;opacity:0}}
+.d1p4h{animation:d1p4h 21.6s linear 2}.d1p4t{animation:d1p4t 21.6s linear 2}
+@keyframes d1rcheck{0%{opacity:0}21.749%{opacity:0}21.759%{opacity:1}24.537%{opacity:0}27.999%{opacity:0}28.009%{opacity:1}30.787%{opacity:0}100%{opacity:0}}.d1rcheck{animation:d1rcheck 21.6s linear 2}
+@keyframes d1rrules{0%{opacity:0}24.064%{opacity:0}24.074%{opacity:1}26.852%{opacity:0}100%{opacity:0}}.d1rrules{animation:d1rrules 21.6s linear 2}
+@keyframes d1rmaker{0%{opacity:0}26.147%{opacity:0}26.157%{opacity:1}28.935%{opacity:0}100%{opacity:0}}.d1rmaker{animation:d1rmaker 21.6s linear 2}
+@keyframes d1rhuman{0%{opacity:0}30.314%{opacity:0}30.324%{opacity:1}33.102%{opacity:0}100%{opacity:0}}.d1rhuman{animation:d1rhuman 21.6s linear 2}</style>
+<g class="rise" style="animation-delay:0.05s">
+<rect x="8.5" y="0.5" width="421" height="291" rx="16" fill="#ffffff" stroke="#d1d9e0"/>
+<rect x="20" y="12" width="398" height="132" rx="11" fill="#f4f4f4"/>
+<g aria-hidden="true">
+<defs><marker id="d1-a" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto"><path d="M1.5 1.6L8.6 5L1.5 8.4" fill="none" stroke="#848d97" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<path d="M111.2 45C140.1 45 145.9 45 174.8 45" fill="none" stroke="#848d97" stroke-width="1.4" marker-end="url(#d1-a)"/>
+<path d="M219.9 59C219.9 108.2 174.2 111 125 111" fill="none" stroke="#848d97" stroke-width="1.4" marker-end="url(#d1-a)"/>
+<path d="M81.9 97C81.9 79.7 81.9 76.3 81.9 59" fill="none" stroke="#848d97" stroke-width="1.4" marker-end="url(#d1-a)"/>
+<path d="M265 45C305.7 45 337.9 56.3 337.9 97" fill="none" stroke="#848d97" stroke-width="1.4" marker-end="url(#d1-a)"/>
+<path class="d1p0t" d="M111.2 45C140.1 45 145.9 45 174.8 45" pathLength="100" fill="none" stroke="#1a4be0" stroke-width="4" stroke-linecap="round" stroke-dasharray="30 200" stroke-dashoffset="30" opacity="0"/>
+<path class="d1p0h" d="M111.2 45C140.1 45 145.9 45 174.8 45" pathLength="100" fill="none" stroke="#1a4be0" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="10 200" stroke-dashoffset="10" opacity="0"/>
+<path class="d1p1t" d="M219.9 59C219.9 108.2 174.2 111 125 111" pathLength="100" fill="none" stroke="#1a4be0" stroke-width="4" stroke-linecap="round" stroke-dasharray="30 200" stroke-dashoffset="30" opacity="0"/>
+<path class="d1p1h" d="M219.9 59C219.9 108.2 174.2 111 125 111" pathLength="100" fill="none" stroke="#1a4be0" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="10 200" stroke-dashoffset="10" opacity="0"/>
+<path class="d1p2t" d="M81.9 97C81.9 79.7 81.9 76.3 81.9 59" pathLength="100" fill="none" stroke="#1a4be0" stroke-width="4" stroke-linecap="round" stroke-dasharray="30 200" stroke-dashoffset="30" opacity="0"/>
+<path class="d1p2h" d="M81.9 97C81.9 79.7 81.9 76.3 81.9 59" pathLength="100" fill="none" stroke="#1a4be0" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="10 200" stroke-dashoffset="10" opacity="0"/>
+<path class="d1p3t" d="M111.2 45C140.1 45 145.9 45 174.8 45" pathLength="100" fill="none" stroke="#1a4be0" stroke-width="4" stroke-linecap="round" stroke-dasharray="30 200" stroke-dashoffset="30" opacity="0"/>
+<path class="d1p3h" d="M111.2 45C140.1 45 145.9 45 174.8 45" pathLength="100" fill="none" stroke="#1a4be0" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="10 200" stroke-dashoffset="10" opacity="0"/>
+<path class="d1p4t" d="M265 45C305.7 45 337.9 56.3 337.9 97" pathLength="100" fill="none" stroke="#1a4be0" stroke-width="4" stroke-linecap="round" stroke-dasharray="30 200" stroke-dashoffset="30" opacity="0"/>
+<path class="d1p4h" d="M265 45C305.7 45 337.9 56.3 337.9 97" pathLength="100" fill="none" stroke="#1a4be0" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="10 200" stroke-dashoffset="10" opacity="0"/>
+<rect class="d1rcheck" x="171.8" y="28" width="96.2" height="34" rx="17" fill="none" stroke="#1a4be0" stroke-width="2" opacity="0"/>
+<rect class="d1rrules" x="35.9" y="94" width="92.1" height="34" rx="17" fill="none" stroke="#1a4be0" stroke-width="2" opacity="0"/>
+<rect class="d1rmaker" x="49.7" y="28" width="64.5" height="34" rx="17" fill="none" stroke="#1a4be0" stroke-width="2" opacity="0"/>
+<rect class="d1rhuman" x="273.5" y="94" width="128.7" height="34" rx="17" fill="none" stroke="#1a4be0" stroke-width="2" opacity="0"/>
+<rect x="52.7" y="31" width="58.5" height="28" rx="14" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="81.9" y="49" font-size="11.5" font-weight="500" fill="#111111" text-anchor="middle">Maker</text>
+<rect x="174.8" y="31" width="90.2" height="28" rx="14" fill="#ffffff" stroke="#d1d9e0"/>
+<svg x="185.8" y="38" width="14" height="14" viewBox="1.032 -0.48 21.937 24.96" preserveAspectRatio="xMidYMid meet" fill="#0A9EDC"><path d="M2.615 0v.887h3.84V0zm5.021 0v.887h3.842V0zm4.957 0v.887h3.842V0zm4.936 0v.887h3.842V0zM2.447 1.895a.935.935 0 0 0-.936.936c0 .517.418.938.936.938h19.105c.517 0 .936-.42.936-.938a.935.935 0 0 0-.936-.936zm.168 2.848V24H6.455V4.742zm5.021 0V20.543h3.842V4.742zm4.957 0V15.291h3.85V4.742zm4.936 0v6.494h3.842V4.742z"/></svg>
+<text x="229.9" y="49" font-size="11.5" font-weight="500" fill="#111111" text-anchor="middle">Checker</text>
+<rect x="38.9" y="97" width="86.1" height="28" rx="14" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="81.9" y="115" font-size="11.5" font-weight="500" fill="#111111" text-anchor="middle">RULES.md</text>
+<rect x="276.5" y="97" width="122.7" height="28" rx="14" fill="#ffffff" stroke="#d1d9e0"/>
+<svg x="287.5" y="104" width="14" height="14" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" fill="none" stroke="#6b6b6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" stroke="#6b6b6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m16 11l2 2l4-4m-6 12v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></g></svg>
+<text x="347.9" y="115" font-size="11.5" font-weight="500" fill="#111111" text-anchor="middle">Human merge</text>
+</g>
+<text x="32" y="178" font-size="17" font-weight="600" fill="#111111" letter-spacing="-0.2">Sleep Loop</text>
+<text x="32" y="202" font-size="13.5" fill="#6b6b6b">A Python repair loop of about 200 lines: a</text>
+<text x="32" y="222" font-size="13.5" fill="#6b6b6b">scripted maker proposes fixes, a checker runs</text>
+<text x="32" y="242" font-size="13.5" fill="#6b6b6b">ast, lint and pytest, and failures become rules.</text>
+<text x="32" y="274" font-size="12" fill="#6b6b6b" class="m" textLength="151.2" lengthAdjust="spacingAndGlyphs">ALPHAMAN-0/Sleep_Loop</text>
 </g>
 </svg>

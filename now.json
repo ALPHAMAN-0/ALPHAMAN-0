@@ -1,17 +1,34 @@
 {
-  "shipping": [
-    "Sleep_Loop — self-repair agent",
-    "LinkedIn AI Power — Telegram bot",
-    "Personal blog — bilingual Astro"
-  ],
+  "open_to": "Open to full-time, remote and contract work",
+  "month": "November 2026",
   "learning": [
-    "LLM internals — RAG, fine-tuning",
-    "Prompt & agent design",
-    "Networks & cloud infrastructure"
-  ],
-  "open_to": [
-    "Full-stack / AI internships 2026",
-    "AI agents & RAG collabs",
-    "Recruiter chats — DM me"
+    {
+      "slug": "ai-engineering",
+      "topic": "AI engineering",
+      "visual": "ai-engineering",
+      "focus": "Working through a four-phase roadmap: maths foundations, transformers and LLMs from scratch, diffusion and systems, then original work.",
+      "href": "https://alphaman-0.github.io/AI_ENGINNER/"
+    },
+    {
+      "slug": "ai-harness",
+      "topic": "AI harnesses",
+      "visual": "ai-harness",
+      "focus": "Claude Code commands, subagents and skills: a slash command that hands research to a subagent and formats the answer with a skill.",
+      "href": "https://github.com/ALPHAMAN-0/6_claude_code_Slash"
+    },
+    {
+      "slug": "dotnet-mvc",
+      "topic": "ASP.NET Core MVC",
+      "visual": "dotnet",
+      "focus": "Controllers, Razor views and EF Core on SQL Server in Docker, on .NET 10. I packed the setup into a dotnet new template.",
+      "href": "https://github.com/ALPHAMAN-0/EFBoilerplate"
+    },
+    {
+      "slug": "nestjs",
+      "topic": "NestJS",
+      "visual": "nestjs",
+      "focus": "REST APIs with modules, DTO validation and TypeORM on PostgreSQL, now scaffolding the backend of Bhorsha, a ride-hailing app for Dhaka.",
+      "href": "https://github.com/ALPHAMAN-0/Advance_Web_Tech_AIUB"
+    }
   ]
 }

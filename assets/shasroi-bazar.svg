@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 520" width="860" height="520" role="img" aria-label="Shasroi Bazar on its Add Price tab: onion (imported) at Dhaka Sadar entered at Tk 160 per kg is saved as M0003 and marked Spike. Its z-score of 3.32 is over the 2.5 limit, and it is 166.7% above a Tk 60 reference price set in the app. Summary cards: 762 prices saved, 1 Spike, a weekly basket of Tk 958.16 with each item at its cheapest market (best single market Narsingdi Sadar), 64% of a Tk 1500 budget used.">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+.fade{animation:fade .8s ease both}
+@keyframes fade{from{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.app{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Noto Sans',Helvetica,Arial,sans-serif}
+.d1{animation:d1 9s 2.9;opacity:0}@keyframes d1{0%,3.32%{opacity:0}3.33%,6.1%{opacity:1}6.11%,100%{opacity:0}}
+.d2{animation:d2 9s 2.9;opacity:0}@keyframes d2{0%,6.1%{opacity:0}6.11%,8.88%{opacity:1}8.89%,100%{opacity:0}}
+.d3{animation:d3 9s 2.9}@keyframes d3{0%,8.88%{opacity:0}8.89%,91.11%{opacity:1}94.44%,100%{opacity:0}}
+.caret{animation:caret 9s 2.9;opacity:0}
+@keyframes caret{0%{transform:translateX(-21.3px);opacity:1}3.33%{transform:translateX(-14.2px)}6.11%{transform:translateX(-7.1px)}8.89%{transform:translateX(0);opacity:1}11.11%,100%{transform:translateX(0);opacity:0}}
+.press{transform-box:fill-box;transform-origin:center;animation:press 9s 2.9}
+@keyframes press{0%,11.67%{transform:scale(1)}12.78%{transform:scale(.95)}14.44%,100%{transform:scale(1)}}
+.saved{animation:saved 9s 2.9}@keyframes saved{0%,15.55%{opacity:0}15.56%,91.11%{opacity:1}94.44%,100%{opacity:0}}
+.rule1{animation:rule1 9s 2.9}@keyframes rule1{0%,18.88%{opacity:0}18.89%,91.11%{opacity:1}94.44%,100%{opacity:0}}
+.rule2{animation:rule2 9s 2.9}@keyframes rule2{0%,22.21%{opacity:0}22.22%,91.11%{opacity:1}94.44%,100%{opacity:0}}
+.badge{transform-box:fill-box;transform-origin:center;animation:badge 9s 2.9}
+@keyframes badge{0%,25.55%{opacity:0;transform:scale(1.35)}25.56%{opacity:1;transform:scale(1.35)}28.33%{transform:scale(1)}91.11%{opacity:1;transform:scale(1)}94.44%,100%{opacity:0;transform:scale(1)}}
+.was{animation:was 9s 2.9;opacity:0}@keyframes was{0%,25.55%{opacity:1}25.56%,94.44%{opacity:0}95.56%,100%{opacity:1}}
+.now{animation:now 9s 2.9}@keyframes now{0%,25.55%{opacity:0}25.56%,94.44%{opacity:1}95.56%,100%{opacity:0}}</style>
+<rect x="0.5" y="0.5" width="859" height="519" rx="12" fill="#eef2f5" stroke="#3d444d"/>
+<path d="M1 12.5A12 12 0 0 1 13 .5H847A12 12 0 0 1 859 12.5V32H1z" fill="#ffffff"/>
+<line x1="1" y1="32" x2="859" y2="32" stroke="#d5dbe1"/>
+<text x="16" y="21" font-size="12" fill="#1f2933" class="app">Shasroi Bazar - Food Price Tracker</text>
+<g stroke="#667085" stroke-width="1.1" fill="none"><path d="M742 16.5h10"/><rect x="784" y="11.5" width="9" height="9"/><path d="M826 11.5l9 9M835 11.5l-9 9"/></g>
+<rect x="1" y="32.5" width="858" height="48" fill="#1f6f5c"/>
+<text x="18" y="63" font-size="19" font-weight="700" fill="#ffffff" class="app">Shasroi Bazar</text>
+<text x="194.1" y="62" font-size="12.5" fill="#cfe6df" class="app">Food prices around Dhaka - real WFP prices + your own</text>
+<text x="842" y="62" font-size="12.5" fill="#cfe6df" text-anchor="end" class="app">Today: 2026-11-07</text>
+<rect x="12" y="90" width="203" height="66" rx="2" fill="#ffffff" stroke="#d5dbe1"/>
+<text x="26" y="109" font-size="9.5" font-weight="700" fill="#667085" letter-spacing="0.3" class="app">PRICES SAVED</text>
+<g class="was"><text x="26" y="131" font-size="18" font-weight="700" fill="#1f2933" class="app">761</text></g>
+<g class="now"><text x="26" y="131" font-size="18" font-weight="700" fill="#1f2933" class="app">762</text></g>
+<g class="was"><text x="26" y="147" font-size="10.5" fill="#667085" class="app">759 from WFP + 2 yours</text></g>
+<g class="now"><text x="26" y="147" font-size="10.5" fill="#667085" class="app">759 from WFP + 3 yours</text></g>
+<rect x="223" y="90" width="203" height="66" rx="2" fill="#ffffff" stroke="#d5dbe1"/>
+<text x="237" y="109" font-size="9.5" font-weight="700" fill="#667085" letter-spacing="0.3" class="app">UNUSUAL PRICES</text>
+<g class="was"><text x="237" y="131" font-size="18" font-weight="700" fill="#1f2933" class="app">0 Spike</text></g>
+<g class="now"><text x="237" y="131" font-size="18" font-weight="700" fill="#c62828" class="app">1 Spike</text></g>
+<text x="237" y="147" font-size="10.5" fill="#667085" class="app">11 Watch (last 365 days)</text>
+<rect x="434" y="90" width="203" height="66" rx="2" fill="#ffffff" stroke="#d5dbe1"/>
+<text x="448" y="109" font-size="9.5" font-weight="700" fill="#667085" letter-spacing="0.3" class="app">BASKET (SPLIT PLAN)</text>
+<text x="448" y="131" font-size="18" font-weight="700" fill="#1f2933" class="app">Tk 958.16</text>
+<text x="448" y="147" font-size="10.5" fill="#667085" class="app">Best market: Narsingdi Sadar</text>
+<rect x="645" y="90" width="203" height="66" rx="2" fill="#ffffff" stroke="#d5dbe1"/>
+<text x="659" y="109" font-size="9.5" font-weight="700" fill="#667085" letter-spacing="0.3" class="app">WEEKLY BUDGET</text>
+<text x="659" y="131" font-size="18" font-weight="700" fill="#2e7d32" class="app">64% used</text>
+<text x="659" y="147" font-size="10.5" fill="#667085" class="app">Within budget (Tk 1500)</text>
+<rect x="12" y="166" width="85.6" height="28" rx="0" fill="#ffffff" stroke="#d5dbe1"/>
+<text x="54.8" y="185" font-size="12.5" font-weight="700" fill="#1f6f5c" text-anchor="middle" class="app">Add Price</text>
+<rect x="97.6" y="168" width="77.2" height="26" rx="0" fill="#e6ebee" stroke="#d5dbe1"/>
+<text x="136.2" y="185" font-size="12.5" font-weight="700" fill="#667085" text-anchor="middle" class="app">Records</text>
+<rect x="174.8" y="168" width="81" height="26" rx="0" fill="#e6ebee" stroke="#d5dbe1"/>
+<text x="215.3" y="185" font-size="12.5" font-weight="700" fill="#667085" text-anchor="middle" class="app">Statistics</text>
+<rect x="255.8" y="168" width="90.2" height="26" rx="0" fill="#e6ebee" stroke="#d5dbe1"/>
+<text x="300.9" y="185" font-size="12.5" font-weight="700" fill="#667085" text-anchor="middle" class="app">My Basket</text>
+<rect x="12" y="194" width="836" height="314" rx="0" fill="#ffffff" stroke="#d5dbe1"/>
+<text x="28" y="228" font-size="15" font-weight="700" fill="#1f2933" class="app">Add a price you paid</text>
+<text x="28" y="247" font-size="11.5" fill="#667085" class="app">Choose the product and the market, then type the price.</text>
+<text x="28" y="279" font-size="12" fill="#1f2933" class="app">Product</text>
+<rect x="172" y="262" width="228" height="26" rx="1" fill="#ffffff" stroke="#d5dbe1"/>
+<text x="180" y="279" font-size="12" fill="#1f2933" class="app">Onion (imported) [ONION]</text>
+<path d="M386 273l4 4 4-4" fill="none" stroke="#1f2933" stroke-width="1.2"/>
+<text x="28" y="309" font-size="12" fill="#1f2933" class="app">Market</text>
+<rect x="172" y="292" width="228" height="26" rx="1" fill="#ffffff" stroke="#d5dbe1"/>
+<text x="180" y="309" font-size="12" fill="#1f2933" class="app">Dhaka Sadar</text>
+<path d="M386 303l4 4 4-4" fill="none" stroke="#1f2933" stroke-width="1.2"/>
+<text x="28" y="339" font-size="12" fill="#1f2933" class="app">Date (YYYY-MM-DD)</text>
+<rect x="172" y="322" width="132" height="26" rx="1" fill="#ffffff" stroke="#d5dbe1"/>
+<text x="180" y="339" font-size="12" fill="#1f2933" class="app">2026-11-07</text>
+<text x="28" y="369" font-size="12" fill="#1f2933" class="app">Price per unit (Tk)</text>
+<rect x="172" y="352" width="132" height="26" rx="1" fill="#ffffff" stroke="#d5dbe1"/>
+<g class="d1"><text x="180" y="369" font-size="12" fill="#1f2933" class="app">1</text></g>
+<g class="d2"><text x="180" y="369" font-size="12" fill="#1f2933" class="app">16</text></g>
+<g class="d3"><text x="180" y="369" font-size="12" fill="#1f2933" class="app">160</text></g>
+<g class="caret"><rect x="202.3" y="358" width="1.2" height="15" fill="#1f2933"/></g>
+<text x="28" y="404" font-size="11.5" fill="#667085" class="app">Unit: kg  |  Reference price: Tk 60.00  |  Type: perishable</text>
+<g class="press"><rect x="28" y="420" width="104" height="30" rx="1" fill="#1f6f5c"/>
+<text x="80" y="439.5" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle" class="app">Save price</text></g>
+<rect x="140" y="420" width="80" height="30" rx="1" fill="#e6ebee"/>
+<text x="180" y="439.5" font-size="12.5" fill="#1f2933" text-anchor="middle" class="app">Clear</text>
+<rect x="432" y="208" width="418" height="288" rx="1" fill="#f6f9f8" stroke="#d5dbe1"/>
+<text x="446" y="230" font-size="9.5" font-weight="700" fill="#667085" letter-spacing="0.3" class="app">RESULT</text>
+<g class="badge"><rect x="446" y="240" width="88" height="34" rx="1" fill="#c62828"/>
+<text x="490" y="263" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle" class="app">Spike</text></g>
+<g class="saved"><text x="446" y="296" font-size="12" fill="#1f2933" class="app">Saved as M0003</text>
+<text x="446" y="314" font-size="12" fill="#1f2933" class="app">Onion (imported)  |  Dhaka Sadar  |  2026-11-07</text>
+<text x="446" y="332" font-size="12" fill="#1f2933" class="app">Price: Tk 160.00 per kg</text></g>
+<g class="rule1"><text x="446" y="358" font-size="12" fill="#1f2933" class="app">Rule 1 - z-score: 3.32   (limit 2.5)</text></g>
+<g class="rule2"><text x="446" y="376" font-size="12" fill="#1f2933" class="app">Rule 2 - above reference: +166.7%   (limit +25%)</text></g>
+<line x1="446" y1="396" x2="822" y2="396" stroke="#d5dbe1"/>
+<text x="446" y="416" font-size="9.5" font-weight="700" fill="#667085" letter-spacing="0.3" class="app">HOW THE ALERT WORKS</text>
+<rect x="446" y="428" width="52" height="15" rx="1" fill="#c62828"/>
+<text x="472" y="439" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle" class="app">Spike</text>
+<text x="508" y="440" font-size="11.5" fill="#1f2933" class="app">both rules are true</text>
+<rect x="446" y="447" width="52" height="15" rx="1" fill="#d97706"/>
+<text x="472" y="458" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle" class="app">Watch</text>
+<text x="508" y="459" font-size="11.5" fill="#1f2933" class="app">one rule is true</text>
+<rect x="446" y="466" width="52" height="15" rx="1" fill="#2e7d32"/>
+<text x="472" y="477" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle" class="app">Normal</text>
+<text x="508" y="478" font-size="11.5" fill="#1f2933" class="app">no rule is true</text>
+</svg>

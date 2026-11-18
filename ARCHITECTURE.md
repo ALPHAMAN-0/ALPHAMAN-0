@@ -4,44 +4,53 @@ tags: [architecture, ALPHAMAN-0]
 
 ## Stack
 
-Not a code project — this is a GitHub profile README repo (renders on github.com/ALPHAMAN-0). No language/framework/build tooling observed. Content is Markdown + an SVG asset + a GitHub Actions workflow.
+GitHub profile README repo (renders on github.com/ALPHAMAN-0). Markdown plus SVGs drawn by dependency-free Node 22 scripts in `.github/scripts/`, and one GitHub Actions workflow.
 
 ## Directory map
 
 | path | what lives there |
 |---|---|
-| README.md | Profile README rendered on GitHub profile page |
-| assets/ | Static assets |
-| assets/ascii-portrait.svg | ASCII-art portrait image embedded in README.md |
-| .github/workflows/ | CI workflow definitions |
-| .github/workflows/snake.yml | Generates contribution "snake" animation SVG on schedule/push |
+| README.md | Profile page; blocks between `BEGIN generated` / `END generated` markers are written by render-static.mjs |
+| now.json | Availability line and the learning cards |
+| assets/ | Generated SVGs (dark, `-light`, `-narrow` for phones) plus the hand-made ascii-portrait.svg |
+| .github/scripts/render-static.mjs | Draws every static SVG and writes the README blocks |
+| .github/scripts/render-stats.mjs | Draws the stats card from the GitHub GraphQL API into dist/ (CI only) |
+| .github/scripts/lib/ | design.mjs (tokens, text, motion), icons.mjs (inline logos), diagram.mjs (card diagrams) |
+| .github/scripts/icons/ | Real product logos from pinned sources, with licences |
+| .github/workflows/profile-assets.yml | `verify` drift check; `generate` snake + stats to the `output` branch |
 
 ## Diagram
 
 ```mermaid
 flowchart TD
-    README_Profile --> Assets
-    GitHub_Actions_Workflow -->|pushes snake.svg to output branch| README_Profile
+    Generator -->|writes SVGs and README blocks| Assets
+    Generator -->|writes generated blocks| README_Profile
+    Assets --> README_Profile
+    GitHub_Actions_Workflow -->|re-runs and checks| Generator
+    GitHub_Actions_Workflow -->|pushes snake and stats to output branch| README_Profile
 ```
 
 ## Component index
 
-- [[README_Profile]]
+- [[Generator]]
 - [[Assets]]
+- [[README_Profile]]
 - [[GitHub_Actions_Workflow]]
 
 ## Entry points
 
-- Dev: none (static Markdown repo, no build step observed)
-- Prod: README.md (rendered directly by GitHub as the profile page)
+- Dev: `node .github/scripts/render-static.mjs` (from the repo root)
+- Prod: README.md, rendered by GitHub as the profile page; stats and snake from the `output` branch
 
 ## Conventions
 
-- README.md uses inline HTML (`<table>`, `<h2><code>...</code></h2>`) mixed with Markdown, terminal-prompt style headers (observed in README.md).
-- Workflow file targets a separate `output` branch for generated content (`.github/workflows/snake.yml` line 34: `target_branch: output`).
+- Every picture is a `<picture>` with a `(max-width: 600px)` narrow source, a dark source and a light `<img>`.
+- Two-up cards are inline images at `width="50%"` with no whitespace between them; the generator writes those rows.
+- Animations are finite and their resting state is the finished frame (reduced motion shows it at once).
 
 ## Where things go
 
-- To edit profile content/links: edit README.md
-- To change the portrait image: replace assets/ascii-portrait.svg and its reference in README.md
-- To change the snake animation schedule or styling: edit .github/workflows/snake.yml
+- To change words, projects, links or the stack: edit the data blocks in `.github/scripts/render-static.mjs`, run it, commit `assets/` and README.md.
+- To change availability or the learning cards: edit now.json, run the generator, commit.
+- To add a logo: fetch it into `.github/scripts/icons/` (see its README.md) and reference it by file name.
+- To change the stats card: edit `.github/scripts/render-stats.mjs`; CI publishes it to the `output` branch.

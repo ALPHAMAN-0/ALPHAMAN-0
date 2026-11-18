@@ -6,11 +6,11 @@
 // here means the image is served from GitHub's own CDN, and if this job ever
 // fails the last good card stays on the profile instead of breaking.
 //
-// Chrome and palette come from lib/chrome.mjs, so this card is the same window
-// as every hand-authored asset in assets/ rather than a lookalike.
+// Palette, type and motion come from lib/design.mjs, so this card is drawn in
+// the same system as every asset in assets/ rather than a lookalike.
 
 import { mkdir, writeFile } from 'node:fs/promises'
-import { THEMES, HOST, esc, svg, mono, delay } from './lib/chrome.mjs'
+import { THEMES, text, panel, doc, delay, EASE, adaptive } from './lib/design.mjs'
 
 const USER = process.env.STATS_USER ?? 'ALPHAMAN-0'
 const TOKEN = process.env.GITHUB_TOKEN
@@ -159,62 +159,91 @@ const recent = sorted.filter((d) => d <= today).slice(-WEEKS * 7)
 const series = Array.from({ length: WEEKS }, (_, w) =>
   recent.slice(w * 7, w * 7 + 7).reduce((sum, d) => sum + days.get(d), 0),
 )
+// The line is scaled to the 95th-percentile week, not the busiest one: a
+// single outlier week (October 2026's account-wide security cleanup touched
+// every repo at once) would otherwise flatten the rest of the year. Weeks
+// above the scale are drawn at the top edge.
 const peak = Math.max(...series, 1)
+const ranked = [...series].sort((a, b) => a - b)
+const scale = Math.max(ranked[Math.floor(0.95 * (ranked.length - 1))], 1)
 
+// [value, label, qualifier]. Eight columns of about 100px each, so labels stay
+// under 15 characters and the qualifier takes a second line.
 const STATS = [
-  [totalContributions.toLocaleString('en-US'), 'contributions'],
-  [commitsLastYear.toLocaleString('en-US'), 'commits 12mo'],
-  [String(reposCreatedLastYear), 'repos 12mo'],
-  [String(publicRepos), 'public repos'],
-  [stars.toLocaleString('en-US'), 'stars'],
-  [followers.toLocaleString('en-US'), 'followers'],
-  [String(current), 'day streak'],
-  [String(longest), 'longest'],
+  [totalContributions.toLocaleString('en-US'), 'contributions', 'all time'],
+  [commitsLastYear.toLocaleString('en-US'), 'commits', 'last 12 months'],
+  [String(reposCreatedLastYear), 'new repos', 'last 12 months'],
+  [String(publicRepos), 'public repos', ''],
+  [stars.toLocaleString('en-US'), 'stars', ''],
+  [followers.toLocaleString('en-US'), 'followers', ''],
+  [String(current), 'day streak', 'current'],
+  [String(longest), 'day streak', 'longest'],
 ]
 
+const LABEL = `GitHub activity for ${USER}: ${STATS.map(([v, l, q]) => `${v} ${l}${q ? ` (${q})` : ''}`).join(', ')}. Contributions per week over the last 52 weeks.`
+const CSS = `.draw{stroke-dasharray:1;animation:draw 1.8s ${EASE} .3s both}
+@keyframes draw{from{stroke-dashoffset:1}}`
+
+function cell(t, [value, label, sub], x, y, i) {
+  return `<g class="rise" style="${delay(0.05 * i)}">
+${text(value, { x, y, size: 26, weight: 600, ls: -0.6, fill: t.ink })}
+${text(label, { x, y: y + 22, size: 12, fill: t.ink })}
+${sub ? text(sub, { x, y: y + 38, size: 12, fill: t.muted }) : ''}
+</g>`
+}
+
+function spark(t, x0, x1, top, band) {
+  const base = top + band
+  const step = (x1 - x0) / (WEEKS - 1)
+  const pts = series.map((n, i) => [+(x0 + i * step).toFixed(1), +(base - (Math.min(n, scale) / scale) * band).toFixed(1)])
+  const line = pts.map(([x, y], i) => `${i ? 'L' : 'M'}${x} ${y}`).join('')
+  const area = `${line}L${x1} ${base}L${x0} ${base}Z`
+  return `<line x1="${x0}" y1="${base}" x2="${x1}" y2="${base}" stroke="${t.line}"/>
+<path class="fade" style="${delay(0.6)}" d="${area}" fill="${t.accentSoft}"/>
+<path class="draw" pathLength="1" d="${line}" fill="none" stroke="${t.accent}" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>`
+}
+
 const W = 860
-const H = 226
-const PAD = 28
+const H = 248
+const PAD = 32
 
 function render(t) {
   const colW = (W - 2 * PAD) / STATS.length
-  const cells = STATS.map(([value, label], i) => {
-    const cx = +(PAD + colW * i + colW / 2).toFixed(1)
-    return `<g class="in" style="${delay(i, 0.05)}">
-${mono(value, { x: cx, y: 100, size: 25, fill: t.fg, anchor: 'middle' })}
-${mono(label, { x: cx, y: 120, size: 9.5, fill: t.muted, anchor: 'middle' })}
-</g>`
-  }).join('\n')
-
-  // pathLength="1" lets the shared `draw` keyframe animate this line without
-  // knowing its real length; see lib/chrome.mjs.
-  const top = 152
-  const band = 44
-  const step = (W - 2 * PAD) / (WEEKS - 1)
-  const pts = series
-    .map((n, i) => `${(PAD + i * step).toFixed(1)},${(top + band - (n / peak) * band).toFixed(1)}`)
-    .join(' ')
-
-  return svg({
+  return doc({
     w: W,
     h: H,
-    t,
-    title: 'git-log',
-    label: `GitHub activity for ${esc(USER)}: ${STATS.map(([v, l]) => `${v} ${l}`).join(', ')}`,
-    body: `${mono(`${HOST} ❯ git log --shortstat --all`, { x: PAD, y: 54, size: 11, fill: t.muted, cls: 'in' })}
-<line x1="${PAD}" y1="68" x2="${W - PAD}" y2="68" stroke="${t.border}"/>
-${cells}
-<line x1="${PAD}" y1="136" x2="${W - PAD}" y2="136" stroke="${t.border}"/>
-<polyline class="draw" pathLength="1" points="${pts}" fill="none" stroke="${t.fg}" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
-<line x1="${PAD}" y1="${top + band}" x2="${W - PAD}" y2="${top + band}" stroke="${t.border}"/>
-${mono('contributions · last 52 weeks', { x: PAD, y: 212, size: 9.5, fill: t.muted, cls: 'in', style: delay(9, 0.05) })}
-${mono(`peak ${peak}/wk`, { x: W - PAD, y: 212, size: 9.5, fill: t.muted, anchor: 'end', cls: 'in', style: delay(9, 0.05) })}`,
+    label: LABEL,
+    css: CSS,
+    body: `${panel(t, { w: W, h: H, r: 18 })}
+${STATS.map((s, i) => cell(t, s, +(PAD + colW * i).toFixed(1), 62, i)).join('\n')}
+${spark(t, PAD, W - PAD, 134, 64)}
+${text('Contributions per week, last 52 weeks', { x: PAD, y: H - 22, size: 12, fill: t.muted })}`,
+  })
+}
+
+// A phone gets a 4 x 2 grid in a 430-wide file that carries both themes.
+const NW = 430
+const NH = 326
+
+function renderNarrow(t) {
+  const pad = 24
+  const colW = (NW - 2 * pad) / 4
+  return doc({
+    w: NW,
+    h: NH,
+    label: LABEL,
+    css: CSS,
+    body: `${panel(t, { w: NW, h: NH, r: 18 })}
+${STATS.map((s, i) => cell(t, s, +(pad + colW * (i % 4)).toFixed(1), 52 + Math.floor(i / 4) * 78, i)).join('\n')}
+${spark(t, pad, NW - pad, 212, 62)}
+${text('Contributions per week, last 52 weeks', { x: pad, y: NH - 20, size: 12, fill: t.muted })}`,
   })
 }
 
 await mkdir('dist', { recursive: true })
 await writeFile('dist/stats.svg', render(THEMES.dark))
 await writeFile('dist/stats-light.svg', render(THEMES.light))
+await writeFile('dist/stats-narrow.svg', adaptive(renderNarrow(THEMES.dark), renderNarrow(THEMES.light)))
 
-console.log(`stats: ${STATS.map(([v, l]) => `${v} ${l}`).join(' | ')}`)
-console.log(`sparkline: ${WEEKS} weeks, peak ${peak}/wk`)
+console.log(`stats: ${STATS.map(([v, l, q]) => `${v} ${l}${q ? ` (${q})` : ''}`).join(' | ')}`)
+console.log(`sparkline: ${WEEKS} weeks, scaled to the 95th-percentile week (${scale}); busiest week ${peak}`)

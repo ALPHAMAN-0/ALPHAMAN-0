@@ -1,7 +1,7 @@
 ---
 tags: [component, ALPHAMAN-0]
 ---
-- Path: .github/workflows/snake.yml
-- Role: Scheduled/push-triggered job that generates a contribution "snake" SVG and pushes it to the `output` branch
-- Talks to: [[README_Profile]]
+- Path: .github/workflows/profile-assets.yml
+- Role: `verify` re-runs the generator and fails on drift; `generate` builds the snake and stats card and pushes them to the `output` branch
+- Talks to: [[Generator]], [[README_Profile]]
 - Back: [[ARCHITECTURE]]

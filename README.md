@@ -1,142 +1,50 @@
-<!-- HERO -->
+<!-- The blocks between BEGIN generated and END generated are written by
+     .github/scripts/render-static.mjs, with the images it draws into assets/;
+     edit its data or now.json and run it, never the blocks or the SVGs (CI
+     re-runs it and fails on any difference). Everything else here is
+     hand-written. The stats card and the snake are drawn by CI into the
+     `output` branch. -->
 
-<table>
-<tr>
-<td width="58%" valign="middle">
+<!-- BEGIN generated:hero -->
+<picture><source media="(max-width: 600px)" srcset="assets/hero-narrow.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg"><img width="100%" src="assets/hero-light.svg" alt="Siam Hossain. Full-stack and AI engineer in Dhaka. BSc CSE, AIUB 2026. I build web apps in TypeScript, C# and Python, and LLM features with guardrails and tests. Three of my tools run at local businesses. Open to full-time, remote and contract work."></picture>
+<!-- END generated:hero -->
 
-# Siam Hossain
+<!-- BEGIN generated:links -->
+<p><a href="mailto:siam.cse.aiub@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-email.svg"><img height="38" src="assets/chip-email-light.svg" alt="Email me"></picture></a><a href="https://www.linkedin.com/in/siamhossain4/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-linkedin.svg"><img height="38" src="assets/chip-linkedin-light.svg" alt="LinkedIn"></picture></a><a href="https://siamhossain.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-portfolio.svg"><img height="38" src="assets/chip-portfolio-light.svg" alt="Portfolio"></picture></a><a href="https://x.com/SIAM_HOSSAIN47"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-x.svg"><img height="38" src="assets/chip-x-light.svg" alt="X (Twitter)"></picture></a><a href="https://wa.me/8801766479295"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-whatsapp.svg"><img height="38" src="assets/chip-whatsapp-light.svg" alt="WhatsApp"></picture></a><a href="https://codolio.com/profile/babaYagaa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-codolio.svg"><img height="38" src="assets/chip-codolio-light.svg" alt="Codolio"></picture></a></p>
+<!-- END generated:links -->
 
-<samp>siam@dhaka ❯ full-stack + ML/AI engineer in training · Dhaka, Bangladesh 🇧🇩</samp>
+## Shasroi Bazar
 
+A desktop app that checks what a Dhaka family paid at the bazar against that food's World Food Programme price history, flags unusual jumps and costs the weekly basket at four markets. Python, Tkinter and NumPy, with 54 tests.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg">
-  <img width="520" src="assets/hero-light.svg" alt="Terminal typing MERN · MEAN · LLM internals · RAG · networking, and building intelligent systems, one commit at a time" />
-</picture>
+A team project for AIUB's Programming in Python course. My part, per the team's work split ([report](https://github.com/sumaiya-akter-roshni/Shasroi_Bazar/blob/main/Submission/Shasroi_Bazar_Project_Report.pdf), section 11): the data models, file storage and config, the window shell with its header and summary cards, and the README with its seven diagrams. [See the code](https://github.com/sumaiya-akter-roshni/Shasroi_Bazar)
 
-</td>
-<td width="42%" align="center">
+<!-- BEGIN generated:shasroi -->
+<a href="https://github.com/sumaiya-akter-roshni/Shasroi_Bazar"><picture><source media="(max-width: 600px)" srcset="assets/shasroi-bazar-narrow.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/shasroi-bazar.svg"><img width="100%" src="assets/shasroi-bazar-light.svg" alt="Shasroi Bazar on its Add Price tab: onion (imported) at Dhaka Sadar entered at Tk 160 per kg is saved as M0003 and marked Spike. Its z-score of 3.32 is over the 2.5 limit, and it is 166.7% above a Tk 60 reference price set in the app. Summary cards: 762 prices saved, 1 Spike, a weekly basket of Tk 958.16 with each item at its cheapest market (best single market Narsingdi Sadar), 64% of a Tk 1500 budget used."></picture></a>
+<!-- END generated:shasroi -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-portrait.svg">
-  <img width="300" src="assets/ascii-portrait-light.svg" alt="ASCII art portrait of Siam Hossain" />
-</picture>
+## More projects
 
-</td>
-</tr>
-</table>
+<!-- BEGIN generated:projects -->
+<p><a href="https://github.com/ALPHAMAN-0/Gridwise_LLM_Energy_Optimizer"><picture><source media="(max-width: 600px)" srcset="assets/card-gridwise-llm-narrow.svg" width="860"><source media="(prefers-color-scheme: dark)" srcset="assets/card-gridwise-llm.svg"><img width="50%" src="assets/card-gridwise-llm-light.svg" alt="Gridwise LLM Energy Optimizer: Gemini reads campus operator notes and a linear program plans the cheapest 24-hour energy schedule. Optimal on all 10 BUP CSE Fest 2026 samples. How it works: operator notes go to Gemini, through guardrails, to a PuLP linear program that returns a 24-hour plan."></picture></a><a href="https://github.com/ALPHAMAN-0/Sleep_Loop"><picture><source media="(max-width: 600px)" srcset="assets/card-sleep-loop-narrow.svg" width="860"><source media="(prefers-color-scheme: dark)" srcset="assets/card-sleep-loop.svg"><img width="50%" src="assets/card-sleep-loop-light.svg" alt="Sleep Loop: A Python repair loop of about 200 lines: a scripted maker proposes fixes, a checker runs ast, lint and pytest, and failures become rules. How it works: a maker proposes a fix, a pytest checker gates it, a failure is written to RULES.md and goes back to the maker, a pass waits for a human to merge."></picture></a><a href="https://github.com/ALPHAMAN-0/AIUB_NOTICE_BOARD"><picture><source media="(max-width: 600px)" srcset="assets/card-aiub-notice-board-narrow.svg" width="860"><source media="(prefers-color-scheme: dark)" srcset="assets/card-aiub-notice-board.svg"><img width="50%" src="assets/card-aiub-notice-board-light.svg" alt="AIUB Notice Board: Sends each new AIUB notice to Telegram with a category and a one-line summary from GPT-4o mini, four times a day since June 2026. How it works: GitHub Actions checks the AIUB notices page, GPT-4o mini sorts and summarises each new notice, Telegram delivers it."></picture></a><a href="https://github.com/ALPHAMAN-0/Sales_Inventory_CRM"><picture><source media="(max-width: 600px)" srcset="assets/card-sales-inventory-crm-narrow.svg" width="860"><source media="(prefers-color-scheme: dark)" srcset="assets/card-sales-inventory-crm.svg"><img width="50%" src="assets/card-sales-inventory-crm-light.svg" alt="Sales Inventory CRM: Sales, stock and win-back of lost customers for shops with several branches. A two-process race test checks the last unit sells only once. How it works: a React point of sale calls a Laravel API, which locks stock rows in MySQL and queues follow-up work in Redis."></picture></a><a href="https://github.com/ALPHAMAN-0/CodeAlpha_RealTimeCommunicationApp"><picture><source media="(max-width: 600px)" srcset="assets/card-realtime-comms-narrow.svg" width="860"><source media="(prefers-color-scheme: dark)" srcset="assets/card-realtime-comms.svg"><img width="50%" src="assets/card-realtime-comms-light.svg" alt="Cipher: End-to-end encrypted team chat with video calls for up to four people, screen sharing and a shared whiteboard. Built for my CodeAlpha internship. How it works: browsers connect through a Socket.IO realtime server, call each other over a WebRTC mesh, and the server stores only ciphertext in MongoDB."></picture></a><a href="https://github.com/ALPHAMAN-0/Sir_ar_last_date"><picture><source media="(max-width: 600px)" srcset="assets/card-sir-ar-last-date-narrow.svg" width="860"><source media="(prefers-color-scheme: dark)" srcset="assets/card-sir-ar-last-date.svg"><img width="50%" src="assets/card-sir-ar-last-date-light.svg" alt="Sir ar Last Date: Teachers upload a roster and a deadline and see who pushed to GitHub on time. Runs on Cloudflare Workers; the token stays server-side. How it works: the browser reads the roster and builds the spreadsheet report; a Cloudflare Worker holds the GitHub token and asks the GraphQL API only about the repos."></picture></a></p>
+<!-- END generated:projects -->
 
-<p>
-<a href="https://www.linkedin.com/in/siamhossain4/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-linkedin.svg"><img height="30" src="assets/chip-linkedin-light.svg" alt="LinkedIn" /></picture></a>
-<a href="https://siamhossain.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-portfolio.svg"><img height="30" src="assets/chip-portfolio-light.svg" alt="Portfolio" /></picture></a>
-<a href="https://x.com/SIAM_HOSSAIN47"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-x.svg"><img height="30" src="assets/chip-x-light.svg" alt="X" /></picture></a>
-<a href="mailto:siam.cse.aiub@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-gmail.svg"><img height="30" src="assets/chip-gmail-light.svg" alt="Gmail" /></picture></a>
-<a href="https://wa.me/8801766479295"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-whatsapp.svg"><img height="30" src="assets/chip-whatsapp-light.svg" alt="WhatsApp" /></picture></a>
-<a href="https://codolio.com/profile/babaYagaa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chip-resume.svg"><img height="30" src="assets/chip-resume-light.svg" alt="Resume" /></picture></a>
-</p>
+<!-- BEGIN generated:learning -->
+## Learning in November 2026
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
+<p><a href="https://alphaman-0.github.io/AI_ENGINNER/"><picture><source media="(max-width: 600px)" srcset="assets/learn-ai-engineering-narrow.svg" width="860"><source media="(prefers-color-scheme: dark)" srcset="assets/learn-ai-engineering.svg"><img width="50%" src="assets/learn-ai-engineering-light.svg" alt="AI engineering: Working through a four-phase roadmap: maths foundations, transformers and LLMs from scratch, diffusion and systems, then original work. Practice: alphaman-0.github.io/AI_ENGINNER."></picture></a><a href="https://github.com/ALPHAMAN-0/6_claude_code_Slash"><picture><source media="(max-width: 600px)" srcset="assets/learn-ai-harness-narrow.svg" width="860"><source media="(prefers-color-scheme: dark)" srcset="assets/learn-ai-harness.svg"><img width="50%" src="assets/learn-ai-harness-light.svg" alt="AI harnesses: Claude Code commands, subagents and skills: a slash command that hands research to a subagent and formats the answer with a skill. Practice: 6_claude_code_Slash."></picture></a><a href="https://github.com/ALPHAMAN-0/EFBoilerplate"><picture><source media="(max-width: 600px)" srcset="assets/learn-dotnet-mvc-narrow.svg" width="860"><source media="(prefers-color-scheme: dark)" srcset="assets/learn-dotnet-mvc.svg"><img width="50%" src="assets/learn-dotnet-mvc-light.svg" alt="ASP.NET Core MVC: Controllers, Razor views and EF Core on SQL Server in Docker, on .NET 10. I packed the setup into a dotnet new template. Practice: EFBoilerplate."></picture></a><a href="https://github.com/ALPHAMAN-0/Advance_Web_Tech_AIUB"><picture><source media="(max-width: 600px)" srcset="assets/learn-nestjs-narrow.svg" width="860"><source media="(prefers-color-scheme: dark)" srcset="assets/learn-nestjs.svg"><img width="50%" src="assets/learn-nestjs-light.svg" alt="NestJS: REST APIs with modules, DTO validation and TypeORM on PostgreSQL, now scaffolding the backend of Bhorsha, a ride-hailing app for Dhaka. Practice: Advance_Web_Tech_AIUB."></picture></a></p>
+<!-- END generated:learning -->
 
-<!-- ABOUT -->
+## Stack
 
-<h2><code>siam@dhaka ❯ cat ~/currently.yaml</code></h2>
+<!-- BEGIN generated:stack -->
+<picture><source media="(max-width: 600px)" srcset="assets/stack-narrow.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/stack.svg"><img width="100%" src="assets/stack-light.svg" alt="Stack. Languages: TypeScript, JavaScript, Python, C#, C++, C, Go, PHP, Bash. Web: Node.js, NestJS, Express, React, Next.js, Angular, .NET, Laravel, FastAPI, Django, Tailwind CSS. Data: PostgreSQL, MySQL, MongoDB, Redis. AI: OpenAI, Claude, Gemini, LangChain, PyTorch, TensorFlow, scikit-learn, NumPy, pandas. Ship: Docker, Kubernetes, AWS, GitHub Actions, Cloudflare Workers, Vercel, Linux, Git."></picture>
+<!-- END generated:stack -->
 
-```yaml
-currently:
-  learning:
-    - MERN Stack (MongoDB, Express, React, Node.js)
-    - MEAN Stack (MongoDB, Express, Angular, Node.js)
-    - Machine Learning & LLM Internals
-    - Prompt Engineering & AI Agents
-    - Computer Network Engineering
-  exploring: [ How LLMs work under the hood, RAG, Fine-tuning ]
-  building: [ Full-stack apps & AI-powered projects ]
+## GitHub activity
 
-interests:
-  - Full-Stack Web Development (MERN / MEAN)
-  - Machine Learning & Large Language Models
-  - AI Agents & Prompt Engineering
-  - Computer Networking & Cloud Infrastructure
-```
+<picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/stats-narrow.svg"><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/stats.svg"><img width="100%" src="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/stats-light.svg" alt="GitHub activity: total contributions, commits and new repositories in the last 12 months, public repositories, stars, followers, and the current and longest streak, over a line of contributions per week for the last 52 weeks."></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake.svg"><img width="100%" src="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake-light.svg" alt="A snake eating the contribution graph"></picture>
 
-<!-- SKILLS -->
-
-<h2><code>siam@dhaka ❯ tree ./stack</code></h2>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack.svg">
-  <img width="100%" src="assets/stack-light.svg" alt="Tech stack — languages: bash, javascript, typescript, python, c, cpp, csharp, go · mern-mean: mongodb, express, react, angular, node.js, django, dotnet · ml-ai-cloud: pytorch, tensorflow, openai, docker, kubernetes, aws · net-tools: wireshark, mysql, git, postman, vscode, linux" />
-</picture>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
-
-<!-- FEATURED PROJECTS -->
-
-<h2><code>siam@dhaka ❯ ls ./projects</code></h2>
-
-<table>
-<tr>
-<td colspan="2" align="center">
-<a href="https://github.com/ALPHAMAN-0/Gridwise_LLM_Energy_Optimizer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-gridwise-llm.svg"><img width="420" src="assets/card-gridwise-llm-light.svg" alt="Gridwise_LLM_Energy_Optimizer — an LLM reads operator notes into guardrailed directives, then a linear program solves the cheapest 24-hour campus grid plan. LLM, FastAPI, optimization." /></picture></a>
-</td>
-</tr>
-<tr>
-<td width="50%">
-<a href="https://github.com/ALPHAMAN-0/Sales_Inventory_CRM"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-sales-inventory-crm.svg"><img width="420" src="assets/card-sales-inventory-crm-light.svg" alt="Sales_Inventory_CRM — full-stack Sales, Inventory & CRM system with atomic inventory and employee KPI tracking. Laravel, React, MySQL." /></picture></a>
-</td>
-<td width="50%">
-<a href="https://github.com/ALPHAMAN-0/Sleep_Loop"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-sleep-loop.svg"><img width="420" src="assets/card-sleep-loop-light.svg" alt="Sleep_Loop — a self-learning agent loop that repairs code overnight, gated on human approval before merge. Agents, LLM, Python." /></picture></a>
-</td>
-</tr>
-<tr>
-<td width="50%">
-<a href="https://github.com/ALPHAMAN-0/AIUB_NOTICE_BOARD"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-aiub-notice-board.svg"><img width="420" src="assets/card-aiub-notice-board-light.svg" alt="AIUB_NOTICE_BOARD — AI-powered Telegram bot classifying and summarising university notices, serverless on GitHub Actions." /></picture></a>
-</td>
-<td width="50%">
-<a href="https://github.com/ALPHAMAN-0/CodeAlpha_RealTimeCommunicationApp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-realtime-comms.svg"><img width="420" src="assets/card-realtime-comms-light.svg" alt="RealTimeCommunicationApp — real-time video conferencing with multi-user calls, screen sharing and a shared whiteboard. WebRTC, Socket.io, Node." /></picture></a>
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
-<a href="https://github.com/ALPHAMAN-0/Sir_ar_last_date"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-sir-ar-last-date.svg"><img width="420" src="assets/card-sir-ar-last-date-light.svg" alt="Sir_ar_last_date — class-deadline checker: upload a roster, set a deadline, see which students pushed to GitHub on time. Runs on the Cloudflare edge, never exposes the token." /></picture></a>
-</td>
-</tr>
-</table>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
-
-<!-- NOW -->
-
-<h2><code>siam@dhaka ❯ ./now --status</code></h2>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/now.svg">
-  <img width="100%" src="assets/now-light.svg" alt="Now: shipping — Sleep_Loop (self-repair agent), LinkedIn AI Power (Telegram bot), Personal blog (bilingual Astro); learning — LLM internals (RAG, fine-tuning), Prompt & agent design, Networks & cloud infrastructure; open to — Full-stack / AI internships 2026, AI agents & RAG collabs, Recruiter chats — DM me" />
-</picture>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
-
-<!-- GITHUB STATS -->
-<!-- Both images below are built every 12h by .github/workflows/profile-assets.yml
-     and published to the `output` branch, so they are served from GitHub's own
-     CDN rather than a third-party card service. -->
-
-<h2><code>siam@dhaka ❯ git log --stat</code></h2>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/stats.svg">
-  <img width="100%" src="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/stats-light.svg" alt="GitHub activity: total contributions, commits and repos over 12 months, public repos, stars, followers, current and longest streak, with a 52-week contribution sparkline" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake.svg">
-  <img width="100%" src="https://raw.githubusercontent.com/ALPHAMAN-0/ALPHAMAN-0/output/snake-light.svg" alt="A snake eating the contribution graph" />
-</picture>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/rule.svg"><img width="100%" src="assets/rule-light.svg" alt="" /></picture>
-
-<!-- FOOTER -->
-
-<samp>siam@dhaka ❯ exit — session logged, see you in the grid.</samp>
+<sub>Product names and logos are trademarks of their owners.</sub>

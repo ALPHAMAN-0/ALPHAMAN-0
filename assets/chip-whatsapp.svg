@@ -1,13 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99 30" width="99" height="30" role="img" aria-label="WHATSAPP">
-<style>
-text{font-family:'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace}
-.in{animation:in .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:0.24s}
-@keyframes in{from{opacity:0;transform:translateY(5px)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}
-</style>
-<g class="in">
-<rect x="0.5" y="0.5" width="98" height="29" rx="6" fill="#0d1117" stroke="#30363d"/>
-<g transform="translate(12,8)" fill="none" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M13 6.8a5.6 5.6 0 0 1-8.3 4.9L1.4 12.6l1-3.2A5.6 5.6 0 1 1 13 6.8z"/></g>
-<text x="34" y="19" font-size="11" fill="#8b949e" textLength="52.8" lengthAdjust="spacingAndGlyphs">WHATSAPP</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 38" width="129" height="38" role="img" aria-label="WhatsApp">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+.fade{animation:fade .8s ease both}
+@keyframes fade{from{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<g class="rise" style="animation-delay:0.65s">
+<rect x="0.5" y="0.5" width="120" height="37" rx="10" fill="#0d1117" stroke="#3d444d"/>
+<svg x="14" y="10.5" width="17" height="17" viewBox="0 0 256 258" preserveAspectRatio="xMidYMid meet"><defs><linearGradient x1="49.9999726%" y1="100.000225%" x2="49.9999726%" y2="4.85578831e-05%" id="i1-whatsappLinearGradient-1"><stop stop-color="#1FAF38" offset="0%"></stop><stop stop-color="#60D669" offset="100%"></stop></linearGradient><linearGradient x1="50.0000414%" y1="100.000108%" x2="50.0000414%" y2="-0.000129944756%" id="i1-whatsappLinearGradient-2"><stop stop-color="#F9F9F9" offset="0%"></stop><stop stop-color="#FFFFFF" offset="100%"></stop></linearGradient></defs><g><path d="M5.46,127.46 C5.46,149.13 11.12,170.3 21.89,188.95 L21.89,188.95 L4.43,252.7 L69.66,235.59 C87.64,245.39 107.87,250.56 128.46,250.56 L128.46,250.56 L128.52,250.56 C196.33,250.56 251.54,195.38 251.57,127.55 L251.57,127.55 C251.58,94.69 238.79,63.78 215.56,40.53 L215.56,40.53 C192.33,17.28 161.43,4.47 128.51,4.45 L128.51,4.45 C60.69,4.45 5.49,59.63 5.46,127.46" fill="url(#i1-whatsappLinearGradient-1)"></path><path d="M1.07,127.42 C1.06,149.87 6.93,171.8 18.08,191.12 L18.08,191.12 L0,257.15 L67.57,239.43 C86.19,249.58 107.15,254.93 128.48,254.94 L128.48,254.94 L128.54,254.94 C198.78,254.94 255.97,197.77 256,127.52 L256,127.52 C256.01,93.47 242.76,61.45 218.7,37.37 L218.7,37.37 C194.63,13.29 162.63,.01 128.54,0 L128.54,0 C58.28,0 1.1,57.16 1.07,127.42 L1.07,127.42 Z M41.31,187.79 L38.79,183.79 C28.18,166.92 22.58,147.44 22.59,127.42 L22.59,127.42 C22.61,69.03 70.14,21.52 128.58,21.52 L128.58,21.52 C156.88,21.53 183.47,32.56 203.48,52.58 L203.48,52.58 C223.48,72.6 234.49,99.21 234.48,127.51 L234.48,127.51 C234.45,185.91 186.93,233.42 128.54,233.42 L128.54,233.42 L128.49,233.42 C109.48,233.41 90.83,228.31 74.57,218.66 L74.57,218.66 L70.7,216.36 L30.6,226.87 L41.31,187.79 Z" fill="url(#i1-whatsappLinearGradient-2)"></path><path d="M96.68,74.15 C94.29,68.84 91.78,68.74 89.51,68.64 C87.65,68.57 85.53,68.57 83.41,68.57 C81.28,68.57 77.83,69.37 74.92,72.56 C72,75.74 63.77,83.45 63.77,99.12 C63.77,114.79 75.18,129.93 76.77,132.06 C78.36,134.18 98.81,167.36 131.18,180.13 C158.08,190.74 163.56,188.63 169.4,188.1 C175.23,187.57 188.24,180.39 190.89,172.96 C193.55,165.52 193.55,159.15 192.75,157.82 C191.95,156.49 189.83,155.69 186.65,154.1 C183.46,152.51 167.8,144.8 164.88,143.74 C161.96,142.68 159.84,142.15 157.72,145.33 C155.59,148.52 149.49,155.69 147.63,157.82 C145.78,159.94 143.92,160.21 140.73,158.62 C137.55,157.02 127.29,153.66 115.12,142.81 C105.65,134.37 99.26,123.94 97.4,120.75 C95.55,117.57 97.2,115.84 98.8,114.26 C100.23,112.83 101.99,110.54 103.58,108.68 C105.17,106.82 105.7,105.49 106.76,103.37 C107.82,101.24 107.29,99.38 106.5,97.79 C105.7,96.2 99.51,80.45 96.68,74.15" fill="#FFFFFF"></path></g></svg>
+<text x="40" y="23.8" font-size="13.5" font-weight="500" fill="#e9edf3" textLength="67.3" lengthAdjust="spacing">WhatsApp</text>
 </g>
 </svg>
