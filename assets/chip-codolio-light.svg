@@ -6,7 +6,7 @@
 .fade{animation:fade .8s ease both}
 @keyframes fade{from{opacity:0}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
-<g class="rise" style="animation-delay:0.7s">
+<g class="rise" style="animation-delay:0.8s">
 <rect x="0.5" y="0.5" width="102" height="37" rx="10" fill="#ffffff" stroke="#d1d9e0"/>
 <svg x="14" y="10.5" width="17" height="17" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" fill="none" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path fill="none" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m18 16l4-4l-4-4M6 8l-4 4l4 4m8.5-12l-5 16"/></svg>
 <text x="40" y="23.8" font-size="13.5" font-weight="500" fill="#111111" textLength="49.4" lengthAdjust="spacing">Codolio</text>

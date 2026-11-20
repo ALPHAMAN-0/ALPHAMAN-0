@@ -222,6 +222,8 @@ const LINKS = [
   { slug: 'linkedin', label: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/siamhossain4/' },
   { slug: 'portfolio', label: 'Portfolio', icon: 'ui-globe', href: 'https://siamhossain.vercel.app/' },
   { slug: 'x', label: 'X', name: 'X (Twitter)', icon: 'x', href: 'https://x.com/SIAM_HOSSAIN47' },
+  { slug: 'facebook', label: 'Facebook', icon: 'facebook', href: 'https://www.facebook.com/SiamHossin11/' },
+  { slug: 'instagram', label: 'Instagram', icon: 'instagram', href: 'https://www.instagram.com/__siam__hossain__/' },
   { slug: 'whatsapp', label: 'WhatsApp', icon: 'whatsapp', href: 'https://wa.me/8801766479295' },
   { slug: 'codolio', label: 'Codolio', icon: 'ui-code-xml', href: 'https://codolio.com/profile/babaYagaa' },
 ]

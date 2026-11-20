@@ -32,12 +32,14 @@ same way, drop it here and reference it by file name (without `.svg`).
 | `docker.svg` | Docker | `logos:docker-icon` | CC0-1.0 |
 | `dotnet.svg` | .NET | `logos:dotnet` | CC0-1.0 |
 | `express.svg` | Express | `si:express` | CC0-1.0 |
+| `facebook.svg` | Facebook | `logos:facebook` | CC0-1.0 |
 | `fastapi.svg` | FastAPI | `logos:fastapi-icon` | CC0-1.0 |
 | `git-icon.svg` | Git | `logos:git-icon` | CC0-1.0 |
 | `github-actions.svg` | GitHub Actions | `logos:github-actions` | CC0-1.0 |
 | `github.svg` | GitHub | `logos:github-icon` | CC0-1.0 |
 | `go.svg` | Go | `logos:go` | CC0-1.0 |
 | `google-gemini-icon.svg` | Google Gemini | `logos:google-gemini-icon` | CC0-1.0 |
+| `instagram.svg` | Instagram | `logos:instagram-icon` | CC0-1.0 |
 | `javascript.svg` | Javascript (JS) | `logos:javascript` | CC0-1.0 |
 | `laravel.svg` | Laravel | `logos:laravel` | CC0-1.0 |
 | `linkedin.svg` | LinkedIn | `logos:linkedin-icon` | CC0-1.0 |
