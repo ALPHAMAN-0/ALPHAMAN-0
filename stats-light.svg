@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 248" width="860" height="248" role="img" aria-label="GitHub activity for ALPHAMAN-0: 3,263 contributions (all time), 1,773 commits (last 12 months), 58 new repos (last 12 months), 107 public repos, 16 stars, 14 followers, 12 day streak (current), 18 day streak (longest). Contributions per week over the last 52 weeks.">
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+.fade{animation:fade .8s ease both}
+@keyframes fade{from{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.draw{stroke-dasharray:1;animation:draw 1.8s cubic-bezier(.2,.7,.2,1) .3s both}
+@keyframes draw{from{stroke-dashoffset:1}}</style>
+<rect x="0.5" y="0.5" width="859" height="247" rx="18" fill="#ffffff" stroke="#d1d9e0"/>
+<g class="rise" style="animation-delay:0s">
+<text x="32" y="62" font-size="26" font-weight="600" fill="#111111" letter-spacing="-0.6">3,263</text>
+<text x="32" y="84" font-size="12" fill="#111111">contributions</text>
+<text x="32" y="100" font-size="12" fill="#6b6b6b">all time</text>
+</g>
+<g class="rise" style="animation-delay:0.05s">
+<text x="131.5" y="62" font-size="26" font-weight="600" fill="#111111" letter-spacing="-0.6">1,773</text>
+<text x="131.5" y="84" font-size="12" fill="#111111">commits</text>
+<text x="131.5" y="100" font-size="12" fill="#6b6b6b">last 12 months</text>
+</g>
+<g class="rise" style="animation-delay:0.1s">
+<text x="231" y="62" font-size="26" font-weight="600" fill="#111111" letter-spacing="-0.6">58</text>
+<text x="231" y="84" font-size="12" fill="#111111">new repos</text>
+<text x="231" y="100" font-size="12" fill="#6b6b6b">last 12 months</text>
+</g>
+<g class="rise" style="animation-delay:0.15s">
+<text x="330.5" y="62" font-size="26" font-weight="600" fill="#111111" letter-spacing="-0.6">107</text>
+<text x="330.5" y="84" font-size="12" fill="#111111">public repos</text>
+
+</g>
+<g class="rise" style="animation-delay:0.2s">
+<text x="430" y="62" font-size="26" font-weight="600" fill="#111111" letter-spacing="-0.6">16</text>
+<text x="430" y="84" font-size="12" fill="#111111">stars</text>
+
+</g>
+<g class="rise" style="animation-delay:0.25s">
+<text x="529.5" y="62" font-size="26" font-weight="600" fill="#111111" letter-spacing="-0.6">14</text>
+<text x="529.5" y="84" font-size="12" fill="#111111">followers</text>
+
+</g>
+<g class="rise" style="animation-delay:0.3s">
+<text x="629" y="62" font-size="26" font-weight="600" fill="#111111" letter-spacing="-0.6">12</text>
+<text x="629" y="84" font-size="12" fill="#111111">day streak</text>
+<text x="629" y="100" font-size="12" fill="#6b6b6b">current</text>
+</g>
+<g class="rise" style="animation-delay:0.35s">
+<text x="728.5" y="62" font-size="26" font-weight="600" fill="#111111" letter-spacing="-0.6">18</text>
+<text x="728.5" y="84" font-size="12" fill="#111111">day streak</text>
+<text x="728.5" y="100" font-size="12" fill="#6b6b6b">longest</text>
+</g>
+<line x1="32" y1="198" x2="828" y2="198" stroke="#e6e6e6"/>
+<path class="fade" style="animation-delay:0.6s" d="M32 197.6L47.6 194.1L63.2 197.6L78.8 196.6L94.4 195.5L110 197.3L125.6 194.5L141.3 196.2L156.9 191.7L172.5 194.5L188.1 195.9L203.7 194.8L219.3 195.5L234.9 197.3L250.5 196.9L266.1 195.5L281.7 194.1L297.3 177.6L312.9 193.4L328.5 194.5L344.2 188.9L359.8 190.6L375.4 192.7L391 188.5L406.6 193.1L422.2 183.9L437.8 178.7L453.4 185L469 193.4L484.6 185L500.2 195.5L515.8 191.3L531.5 178.7L547.1 179.7L562.7 193.8L578.3 182.9L593.9 190.6L609.5 187.8L625.1 183.9L640.7 168.1L656.3 187.8L671.9 138.6L687.5 134L703.1 169.5L718.7 173.4L734.4 134L750 158.3L765.6 134L781.2 155.5L796.8 134L812.4 172.7L828 153L828 198L32 198Z" fill="#e8eefc"/>
+<path class="draw" pathLength="1" d="M32 197.6L47.6 194.1L63.2 197.6L78.8 196.6L94.4 195.5L110 197.3L125.6 194.5L141.3 196.2L156.9 191.7L172.5 194.5L188.1 195.9L203.7 194.8L219.3 195.5L234.9 197.3L250.5 196.9L266.1 195.5L281.7 194.1L297.3 177.6L312.9 193.4L328.5 194.5L344.2 188.9L359.8 190.6L375.4 192.7L391 188.5L406.6 193.1L422.2 183.9L437.8 178.7L453.4 185L469 193.4L484.6 185L500.2 195.5L515.8 191.3L531.5 178.7L547.1 179.7L562.7 193.8L578.3 182.9L593.9 190.6L609.5 187.8L625.1 183.9L640.7 168.1L656.3 187.8L671.9 138.6L687.5 134L703.1 169.5L718.7 173.4L734.4 134L750 158.3L765.6 134L781.2 155.5L796.8 134L812.4 172.7L828 153" fill="none" stroke="#1a4be0" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="32" y="226" font-size="12" fill="#6b6b6b">Contributions per week, last 52 weeks</text>
+</svg>
