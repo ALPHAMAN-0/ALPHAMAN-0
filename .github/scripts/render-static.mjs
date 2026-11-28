@@ -22,7 +22,7 @@
 import { mkdir, writeFile, readdir, readFile } from 'node:fs/promises'
 import { readFileSync } from 'node:fs'
 import { THEMES, esc, measure, wrap, text, panel, rect, doc, delay, EASE, adaptive } from './lib/design.mjs'
-import { icon, logoTile, usedIcons, WIDE, resetIcons } from './lib/icons.mjs'
+import { icon, iconRatio, logoTile, usedIcons, WIDE, resetIcons } from './lib/icons.mjs'
 import { diagram, centerNodes, resetDiagrams } from './lib/diagram.mjs'
 
 const OUT = 'assets'
@@ -215,37 +215,47 @@ ${lines.map((l, i) => text(l, { x, y: top + 152 + i * 23, size: 15, fill: t.mute
 // One file per link, because an <img>-loaded SVG cannot carry its own
 // hyperlinks: each chip is wrapped in its own <a> in the README. "Email me" is
 // the one filled button; the rest are the places to find me, each with its
-// real logo, or a plain glyph where the site has none in a licensed set.
+// real logo, or a plain glyph where the site has none in a licensed set. A
+// wordmark (Kaggle) already spells the name, so its chip has no label.
 
 const LINKS = [
   { slug: 'email', label: 'Email me', icon: 'ui-mail', href: 'mailto:siam.cse.aiub@gmail.com', primary: true },
   { slug: 'linkedin', label: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/siamhossain4/' },
   { slug: 'portfolio', label: 'Portfolio', icon: 'ui-globe', href: 'https://siamhossain.vercel.app/' },
+  { slug: 'burgercode', label: 'BurgerCode', icon: 'ui-square-terminal', href: 'https://burgercode.me/' },
   { slug: 'x', label: 'X', name: 'X (Twitter)', icon: 'x', href: 'https://x.com/SIAM_HOSSAIN47' },
   { slug: 'facebook', label: 'Facebook', icon: 'facebook', href: 'https://www.facebook.com/SiamHossin11/' },
   { slug: 'instagram', label: 'Instagram', icon: 'instagram', href: 'https://www.instagram.com/__siam__hossain__/' },
   { slug: 'whatsapp', label: 'WhatsApp', icon: 'whatsapp', href: 'https://wa.me/8801766479295' },
   { slug: 'codolio', label: 'Codolio', icon: 'ui-code-xml', href: 'https://codolio.com/profile/babaYagaa' },
+  { slug: 'leetcode', label: 'LeetCode', icon: 'leetcode', href: 'https://leetcode.com/u/RedApple47/' },
+  { slug: 'kaggle', label: 'Kaggle', icon: 'kaggle', href: 'https://www.kaggle.com/redappleeeee' },
 ]
 
 const CHIP_GAP = 8
+const WORDMARK_H = 15 // about the height of the label's letters, descenders included
 
 function chip(t, l, i) {
   const h = 38
   const pad = 14
   const iz = 17
   const fs = 13.5
-  const w = Math.round(pad + iz + 9 + measure(l.label, fs, { weight: 500 }) + pad)
+  // A wordmark is drawn at its own proportions and has no label beside it,
+  // which would only repeat the word.
+  const word = WIDE.has(l.icon)
+  const mw = word ? +(WORDMARK_H * iconRatio(l.icon)).toFixed(1) : iz
+  const mh = word ? WORDMARK_H : iz
+  const w = Math.round(pad + mw + (word ? 0 : 9 + measure(l.label, fs, { weight: 500 })) + pad)
   const fill = l.primary ? t.accent : t.bg
   const ink = l.primary ? t.accentInk : t.ink
+  const label = word ? '' : `\n${text(l.label, { x: pad + iz + 9, y: h / 2 + 4.8, size: fs, weight: 500, fill: ink, fit: true })}`
   return doc({
     w: w + CHIP_GAP,
     h,
     label: l.name ?? l.label,
     body: `<g class="rise" style="${delay(0.45 + i * 0.05)}">
 ${rect({ x: 0.5, y: 0.5, w: w - 1, h: h - 1, r: 10, fill, stroke: l.primary ? t.accent : t.border })}
-${icon(l.icon, { x: pad, y: (h - iz) / 2, size: iz, t, color: l.primary ? t.accentInk : l.icon.startsWith('ui-') ? t.ink : undefined })}
-${text(l.label, { x: pad + iz + 9, y: h / 2 + 4.8, size: fs, weight: 500, fill: ink, fit: true })}
+${icon(l.icon, { x: pad, y: (h - mh) / 2, w: mw, h: mh, t, color: l.primary ? t.accentInk : l.icon.startsWith('ui-') ? t.ink : undefined })}${label}
 </g>`,
   })
 }

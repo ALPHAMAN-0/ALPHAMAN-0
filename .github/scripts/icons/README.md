@@ -41,7 +41,9 @@ same way, drop it here and reference it by file name (without `.svg`).
 | `google-gemini-icon.svg` | Google Gemini | `logos:google-gemini-icon` | CC0-1.0 |
 | `instagram.svg` | Instagram | `logos:instagram-icon` | CC0-1.0 |
 | `javascript.svg` | Javascript (JS) | `logos:javascript` | CC0-1.0 |
+| `kaggle.svg` | Kaggle | `si:kaggle` | CC0-1.0 |
 | `laravel.svg` | Laravel | `logos:laravel` | CC0-1.0 |
+| `leetcode.svg` | LeetCode | `si:leetcode` | CC0-1.0 |
 | `linkedin.svg` | LinkedIn | `logos:linkedin-icon` | CC0-1.0 |
 | `linux-tux.svg` | Linux | `logos:linux-tux` | CC0-1.0 |
 | `mongodb.svg` | MongoDB | `logos:mongodb-icon` | CC0-1.0 |

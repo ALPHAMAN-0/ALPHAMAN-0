@@ -51,8 +51,9 @@ function load(name) {
 }
 
 // Wordmarks: logos that are a word rather than a symbol. They get a wider box
-// (and a wider tile) so the word is not printed at the height of a symbol.
-export const WIDE = new Set(['go', 'php', 'aws'])
+// (and a wider tile) so the word is not printed at the height of a symbol. A
+// contact chip prints one alone, at its own proportions, with no label.
+export const WIDE = new Set(['go', 'php', 'aws', 'kaggle'])
 
 /**
  * Draw `name` fitted inside a box whose top-left is (x, y): size x size, or
@@ -122,4 +123,10 @@ export function hasIcon(name) {
   } catch {
     return false
   }
+}
+
+/** Width over height of a mark's own box, to lay a wordmark out at its proportions. */
+export function iconRatio(name) {
+  const [, , w, h] = load(name).vb.split(/[\s,]+/).map(Number)
+  return w / h
 }
